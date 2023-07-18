@@ -1,0 +1,13 @@
+https://agency.qa.ring.com 
+https://blink-cs-central.immedia-semi.com 
+https://dev-bi-dashboard.immedia-semi.com 
+https://manufacturing-es.immedia-semi.com 
+https://mobile-es.immedia-semi.com 
+https://robin.dev.ring.com 
+https://robin.qa.ring.com 
+https://robin.ring.com 
+https://site-cdn.ring.com 
+https://tst1-dashboard.immedia-semi.com 
+https://tst7-dashboard.immedia-semi.com 
+https://tst9-dashboard.immedia-semi.com 
+                                                 

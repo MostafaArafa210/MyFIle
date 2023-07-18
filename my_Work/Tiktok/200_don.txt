@@ -1,0 +1,9 @@
+https://im-api-va.tiktok.com  
+https://im-api-sg.tiktok.com  
+https://im16-normal-c-useast1a.tiktokv.com  
+https://im-va.tiktokv.com  
+https://im16-tmp-normal-useast1a.tiktokv.com  
+https://im16-normal-c-useast2a.tiktokv.com  
+https://im-ru.tiktokv.com  
+https://im16-platform-ycru.tiktokv.com  
+https://imapi-16.tiktokv.com 

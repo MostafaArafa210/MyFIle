@@ -1,0 +1,6 @@
+secure-v2.jellychat.com
+secure.jellychat.com
+secure2.jellychat.com
+jellychat.com
+www.jellychat.com
+blog.jellychat.com

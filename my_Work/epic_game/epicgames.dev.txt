@@ -1,0 +1,2 @@
+api.epicgames.dev
+www.epicgames.dev
