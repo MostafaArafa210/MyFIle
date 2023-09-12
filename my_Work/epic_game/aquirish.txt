@@ -1,0 +1,3 @@
+consoles.aquiristech.com	
+hc2.aquiristech.com	
+portunit.aquiristech.com	

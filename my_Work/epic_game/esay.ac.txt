@@ -1,0 +1,25 @@
+"""www.easy.ac
+easy.ac
+easy.ac
+easy.ac
+easy.ac
+www.easy.ac
+dev.easy.ac
+img.easy.ac
+support.easy.ac
+status.easy.ac
+connect.easy.ac
+portals-cdn.easy.ac
+dashboard.easy.ac"""
+
+# -------------------
+
+
+{
+    "https://www.easy.ac": "63.35.155.202",
+    "https://easy.ac": "52.209.45.141",
+    "https://support.easy.ac": "18.203.21.187",
+    "https://dev.easy.ac": "52.209.58.137",
+    "https://status.easy.ac": "52.215.2.109",
+    "https://connect.easy.ac": "52.209.52.137"
+}

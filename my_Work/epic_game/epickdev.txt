@@ -1,0 +1,3 @@
+api.epicgames.dev
+connect.epicgames.dev
+www.epicgames.dev

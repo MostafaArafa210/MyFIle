@@ -1,13 +1,3 @@
-www.psyonix.com
-3www.psyonix.com
-bucket.psyonix.com
-cdn.psyonix.com
-flat.psyonix.com
-ftp.psyonix.com
-mail.psyonix.com
-rl-cdn.psyonix.com
-rocketleague.psyonix.com
-sarb.psyonix.com
-stats.psyonix.com
-psyonix.com
-www.stats.psyonix.com
+flat.psyonix.com	35.244.133.72
+mail.psyonix.com	159.127.187.146	
+www.psyonix.com	    146.75.121.161

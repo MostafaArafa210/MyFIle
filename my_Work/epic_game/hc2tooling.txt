@@ -1,0 +1,5 @@
+core.hc2tooling.com	
+loadtest.hc2tooling.com	
+prod.hc2tooling.com	
+staging.hc2tooling.com	
+test.hc2tooling.com	

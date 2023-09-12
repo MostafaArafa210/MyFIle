@@ -1,21 +1,13 @@
-www.rocketleague.com
-support.rocketleague.com
-jumpstart.rocketleague.com
 api.rocketleague.com
-esports.rocketleague.com
 fanclash.rocketleague.com
-oauth.rocketleague.com
-rewards.rocketleague.com
-oauth2.rocketleague.com
-pass.rocketleague.com
-sideswipe.rocketleague.com
-252fsupport.rocketleague.com
-25252fsupport.rocketleague.com
-tracking.rocketleague.com
-psynet.rocketleague.com
-rewards-test.rocketleague.com
-rocketleague.com
-jumpstart-staging.rocketleague.com
 fanclash-staging.rocketleague.com
+jumpstart.rocketleague.com
+jumpstart-staging.rocketleague.com
 qr.rocketleague.com
-watch.rocketleague.com
+rewards-test.rocketleague.com
+sideswipe.rocketleague.com
+support.rocketleague.com
+tracking.rocketleague.com
+www.rocketleague.com
+ psynet.rocketleague.com	
+  watch.rocketleague.com	

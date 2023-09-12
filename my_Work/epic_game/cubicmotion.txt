@@ -1,3 +1,5 @@
+staging.cubicmotion.com	
+vpn.cubicmotion.com	
+www.vpn.cubicmotion.com	
 downloads.cubicmotion.com
-staging.cubicmotion.com
 www.cubicmotion.com

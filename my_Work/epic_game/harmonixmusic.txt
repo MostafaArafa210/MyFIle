@@ -1,40 +1,10 @@
-www.harmonixmusic.com
-222.harmonixmusic.com
-2fwww.harmonixmusic.com
-account.harmonixmusic.com
-admin.harmonixmusic.com
-art.harmonixmusic.com
-central.harmonixmusic.com
-confluence.harmonixmusic.com
-deki.harmonixmusic.com
-dev.harmonixmusic.com
-epicgamesaccount.harmonixmusic.com
-events.harmonixmusic.com
-forums.harmonixmusic.com
-helpdesk.harmonixmusic.com
-jira.harmonixmusic.com
-jobs.harmonixmusic.com
-lazer-admin.lw.harmonixmusic.com
-mail.harmonixmusic.com
-ns1.harmonixmusic.com
-s3.harmonixmusic.com
-hmxcorp-dev.s3.harmonixmusic.com
-hmxcorp-prod.s3.harmonixmusic.com
-hmxcorp-prod-a.s3.harmonixmusic.com
-hmxcorp-prod-b.s3.harmonixmusic.com
-hmxcorp-qa.s3.harmonixmusic.com
-sp.harmonixmusic.com
-support.harmonixmusic.com
-web-admin.harmonixmusic.com
-webcdn.harmonixmusic.com
-ww.harmonixmusic.com
-autodiscover.harmonixmusic.com
-ftp.harmonixmusic.com
-vpn.harmonixmusic.com
-ns2.harmonixmusic.com
-dotto.harmonixmusic.com
-connect.harmonixmusic.com
-www.s3.harmonixmusic.com
-cloud.harmonixmusic.com
-harmonixmusic.com
-lync.harmonixmusic.com
+"""
+admin.harmonixmusic.com	    44.214.112.43	
+forums.harmonixmusic.com	104.26.4.5	
+www.harmonixmusic.com	    104.26.4.5	
+"""
+
+
+"helpdesk.harmonixmusic.com	"
+
+

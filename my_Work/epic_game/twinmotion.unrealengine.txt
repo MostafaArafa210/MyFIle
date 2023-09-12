@@ -1,0 +1,17 @@
+twinmotion.unrealengine.com
+
+This is an API Base, please also see the following list of endpoints
+GET: /health-check
+GET: /metrics
+GET: /logout
+GET: /api/drive/account
+GET: /api/drive/presentations
+POST: /api/drive/rename_presentation
+POST: /api/drive/delete_presentation
+POST: /api/drive/share_presentation
+POST: /api/drive/unshare_presentation
+POST: /api/drive/create_session
+POST: /api/drive/user_position
+POST: /api/public/create_session
+POST: /api/public/user_position
+POST: /api/public/presentation

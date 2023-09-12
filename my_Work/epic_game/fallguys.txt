@@ -1,6 +1,16 @@
-survey.fallguys.com
+"""
+legal.fallguys.com:	13.107.213.42	
+link.fallguys.com	  :65.9.66.14	
+support.fallguys.com   :108.138.7.66	
+survey.fallguys.com	:13.225.78.58	
+www.fallguys.com	:18.66.112.21	
+
+"""
+"email.fallguys.com	"
+
+
+legal.fallguys.com
 link.fallguys.com
-www.fallguys.com
-email.fallguys.com
 support.fallguys.com
-babymashi.fallguys.com
+survey.fallguys.com
+www.fallguys.com

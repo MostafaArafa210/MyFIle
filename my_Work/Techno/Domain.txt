@@ -1,0 +1,5 @@
+1-*.palm.tech
+2-www.boomplay.com	
+3-security.tecno.com	
+4-www.mobile-phantom.com	
+5-www.tecno-mobile.com	

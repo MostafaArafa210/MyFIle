@@ -1,4 +1,3 @@
 share.dropmix.com
 www.dropmix.com
 share-tmp.dropmix.com
-dropmix.com
