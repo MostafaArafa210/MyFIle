@@ -1,0 +1,3 @@
+admin.fanduel.com
+radmin.fanduel.com
+geologyadminregraphql.assets.fanduel.com
