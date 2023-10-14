@@ -1,0 +1,16 @@
+sftp-dca.uber.com
+sftp-phx3.uber.com
+sftp.uber.com
+sftp-phx.uber.com
+sftp-phx3.uber.com
+sftp.uber.com
+sftp-phx.uber.com
+sftp-dca.uber.com
+sftp-phx3.uber.com
+sftp.uber.com
+sftp-phx.uber.com
+sftp-dca.uber.com
+sftp-phx3.uber.com
+sftp.uber.com
+sftp-phx.uber.com
+sftp-dca.uber.com
