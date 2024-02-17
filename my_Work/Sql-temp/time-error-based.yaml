@@ -1,0 +1,68 @@
+id: time-based-sql-injection
+info:
+  name: Time-Based SQL Injection
+  author: 0X0Max
+  severity: high
+  tags: [sql-injection, web, detection]
+description: |
+  Detects potential Time-Based SQL Injection vulnerabilities in web applications.
+requests:
+  - method: GET
+    path:
+      - "/"
+      - "/login"
+      - "/admin"
+      - "/{{path}}/?id="
+      - "/{{path}}/?id="
+      - "/{{path}}/?id="
+      - "/{{path}}/?uid="
+      - "/{{path}}/?sid="
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - "WAITFOR DELAY"
+          - "sleep()"
+          - "benchmark()"
+          - "pg_sleep()"
+          - "pg_sleep_for()"
+          - "DBMS_LOCK.SLEEP"
+          - "dbms_pipe.receive_message()"
+          - "CONNECTIONPROPERTY"
+          - "if() benchmark()"
+          - "WAITFOR"
+          - "SLEEP()"
+          - "BENCHMARK()"
+          - "sleep(5)"
+          - "sleep(10)"
+          - "sleep(15)"
+          - "pg_sleep(5)"
+          - "pg_sleep(10)"
+          - "pg_sleep(15)"
+          - "DBMS_LOCK.SLEEP(5)"
+          - "DBMS_LOCK.SLEEP(10)"
+          - "DBMS_LOCK.SLEEP(15)"
+          - "sleep(5) and '1'='1"
+          - "sleep(10) and '1'='1"
+          - "sleep(15) and '1'='1"
+          - "pg_sleep(5) and '1'='1"
+          - "pg_sleep(10) and '1'='1"
+          - "pg_sleep(15) and '1'='1"
+          - "DBMS_LOCK.SLEEP(5) and '1'='1"
+          - "DBMS_LOCK.SLEEP(10) and '1'='1"
+          - "DBMS_LOCK.SLEEP(15) and '1'='1"
+        part: body
+    max-redirects: 2
+    silent: false
+    attack-type: SQLInjection
+    payload: "' AND SLEEP(5)--"
+    headers:
+      User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+    pipeline:
+      - set-connection
+      - validate-response
+      - extract-dynamic
+      - match
+    paths:
+      - {{BaseUrl}}
+      
