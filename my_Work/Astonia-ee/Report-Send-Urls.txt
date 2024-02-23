@@ -1,0 +1,18 @@
+1 - https://arhmus.tlu.ee/cgi-bin/epam?ctf_op=viewrec&ctf_table=  {Xss}
+
+2 - http://arhmus.tlu.ee/cgi-bin/epam?ctf_op=csearch&ctf_nextop=viewrec&ctf_lastop=viewrec&ctf_table=objects&ctf_rowstart=0&ctf_rowend=2&ctf_shown_rows=50&ctf_sort_field=author&ctf_sort_dir=asc&ctf_rowid=107314&ctf_op_args=%7B%22keywords%22%3A%22Novek%2C%20Karl%22%7D&ctf_list_ids_json=&ctf_userlevel=10  {xss}
+
+3 -https://www.ic-components.ee/message/completed.jsp ?Email= {Xss}
+
+4 - http://elvalikaine.tlu.ee/index.php?wp=790190 {Sql-Error-Bassed }
+
+5 -  http://elvalikaine.tlu.ee/pdf.php?id=790190 {Sql-Error-Bassed}
+
+6 - https://annaabi.ee/s.php?s=veebilehed&cat=&hind=&pages=&format=&t=&keel=&p=5 {Sql-Blind-Time}
+
+7 - https://www.arved.ee/nordea/loancalculator.jsp {Xss}
+
+8 - https://koolikaart.hm.ee/index.php?id=map1&t=3&scrl=1%22&o[0]= 2   Xss
+
+
+

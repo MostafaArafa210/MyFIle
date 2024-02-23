@@ -1,0 +1,46 @@
+  <script>
+        /*<![CDATA[*/
+        const messages = {};
+        messages['_8x8.login.errors.internalServerErrorContact8x8Admin'] = "Internal Server Error: Please contact your 8x8 system administrator.";
+        messages['_8x8.login.errors.internalServerError'] = "Internal Server Error";
+        messages['_8x8.login.errors.wentwrong'] = "Something went wrong.";
+        messages['_8x8.login.errors.toomanyloginhelprequests'] = "Too many requests. Please try again later.";
+        /*]]>*/
+    </script>
+
+
+
+https://cloud8.8x8.com/analytics-service/public/
+
+ccc48cb58d3d49c4ad71992ad25017c0 
+
+
+
+https://cloud8.8x8.com/mapanelweb/public/launcher/login.html?album=copper&state=https%3A%2F%2Fcloud8.8x8.com%2Fmapanelweb%2Fpublic%2Flauncher%2Flauncher.html%3Fparenttraceid%3Dnull%26instancedomain%3Dapi.prosperworks.com&redirecturl=https://cloud8.8x8.com/maestro/public/v2.0/loginredirect
+
+https://cloud8.8x8.com/mapanelweb/public/index.html?integration=I3&instanceUrl=https://api.prosperworks.com&env=copper
+
+https://connect.8x8.com/login/signup
+
+https://connect.8x8.com/root-config.js
+
+https://connect.8x8.com/login?utm_source=Twitter&utm_medium=social-media-organic&utm_campaign=employee_advocacy&lever_via=https://connect.8x8.com/messaging/api-keys
+
+https://sso.8x8.com/v2/login
+
+
+https://sso.8x8.com/v2/login?msg=vcc.messages.agui_login_redirect&username=Your_username%40stonesidellc01
+
+https://vocrmapi.8x8.com/vocrmapi/rest/netsuite/v1.0/
+
+
+::
+amplitudeProjectKey:"93bcb760eda5078376a8a2bfbde37cc7"
+amplitudeUrl:"https://api2.amplitude.com/2/httpapi"
+zendeskAppTitle:"8x8 Virtual Office 2.2"
+vocrmapiUrl:"https://vocrmapi.8x8.com/vocrmapi/rest/netsuite/v1.0/"
+https://127.0.0.1:8282/public/launcher/salesforce.html
+https://localhost:8443/",pilot:"https://voapi.8x8pilot.com/",production:"https://voapi.8x8.com/"},
+apiKey","4faS9xkafpq9vaq99bs5Zw==
+
+{CONTENTTYPE:{JSON:"application/json",URLENCODED:"application/x-www-form-urlencoded"}},SALESFORCE:{LOGINURL:"https://login.salesforce.com/services/oauth2/token",LOGINBODY:"grant_type=password&client_id=3MVG9sG9Z3Q1RlbeVDU4MyjcQlGZCAsS2a_JWo9hoNN3GfygqMeM8seH1cSKqF7X00wO3xqLp.WMKeYkvM7CG&client_secret=7839296452665118067"}

