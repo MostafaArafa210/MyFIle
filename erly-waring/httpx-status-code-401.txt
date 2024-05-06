@@ -1,0 +1,5 @@
+https://api2.qa.zellepay.com 
+https://api1-green.qa.zellepay.com 
+https://env2-core-waf-us-west-2.qa.zellepay.com 
+https://sandbox.digitalwallet.earlywarning.com 
+https://vcms.digitalwallet.earlywarning.com 

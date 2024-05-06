@@ -1,0 +1,27 @@
+
+-
+-
+-
+-
+-["auto_insurance_profile/banking_profile/cape_offers/card_linked_offers_profile/credit_builder_profile/credit_card_application_profile/debt_profile/ds_insights_profile/edu_application_profile/education_profile/engagement_profile/financial_data_profile/financial_profile/forecast_profile/home_calculator_profile/home_consumer_profile/home_insurance_profile/investing_profile/mobile_app_profile/mortgage_offer_profile/mortgage_profile/mortgage_shopping_profile/my_nerdwallet_profile/onboarding_profile/personal_loans_application_profile/personal_loans_profile/security_profile/unified_user_profile/user_research_profile/drive_like_a_nerd_profile"]},"
+-
+-
+- WRITE_KEY=bnzseKh1j08ce7kemjUaHKUp6JNcyOiR
+- uuid=150229e4-7c9b-4396-92df-b3872ae77677
+- hash:4ba8e13d2ac6f27d9d347ac2
+"NERDWALLET_HOSTNAMES":["nerdwallet.com","nerdwallet.biz","nerdwallet.io","localhost","n8t.io"]
+ hash :  bee7cac0a54b5df7ac5ae4d4 ,
+    tags : [ applesignin/ apps-2021-02-17/ aws/ breadcrumbs/ container/ ecs_multi_service/ global-markup/ googlerecaptcha/ kount/ node/ nwprod/ prod/ transunion/ us-east-1/ web-push-notifications ],
+    username :  bcooper@nerdwallet.com ,
+    uuid :  73dca135-9a5e-4ebb-8571-33e82e4015fa ,
+    version :  2.1.0 
+} < /script><link rel= stylesheet  href= https:/ / www.nerdwallet.com / cdn / apps / prod / compass / prod / dist / client / css / chronicle.css  ><link rel= 
+
+
+
+"https://www.nerdwallet.com/api/tuyo/REDACTION_REGEXPS
+["\\\\b\\\\d{3}(-|\\\\s)\\\\d{2}(-|\\\\s)\\\\d{4}\\\\b/\\\\b\\\\d{4}(-|\\\\s)?\\\\d{4}(-|\\\\s)?\\\\d{4}(-|\\\\s)?\\\\d{4}\\\\b/\\\\b\\\\d{4}(-|\\\\s)?\\\\d{6}(-|\\\\s)?\\\\d{5}\\\\b/\\\\s?(\\\\(\\\\d{3}\\\\)|\\\\d{3})(\\\\s|-|\\\\.)?\\\\d{3}(\\\\s|-|\\\\.)?\\\\d{4}\\\\b/\\\\+\\\\d{1,3}(\\\\s|-|\\\\.)?(\\\\(\\\\d{3}\\\\)|\\\\d{3})?(\\\\s|-|\\\\.)?\\\\d{3}(\\\\s|-|\\\\.)?\\\\d{4}\\\\b/\\\\b[^\\\\s@]+@[^\\\\s@\\\\.]+\\\\.\\\\w+\\\\b"],"SENSITIVE_PARAMS
+["access_token/account_name/account_number/accountNumber/address/address_line_one/address_line_two/addressLineOne/addressLineTwo/api_key/apikey/authorization/bill_pin/canonical_merchant_name/card_number/cf-access-jwt-assertion/citizenship/city/cobrand_token/cookie/cookies/country/csrf_token/cvc/date_of_birth/dateOfBirth/description/description_original/description_simple/email/expiration_month/expiration_year/financial_account_id/first_name/firstName/full_name/full_ssn/fullSsn/homeAddressLine1/homeAddressLine2/jwt_access_token/last_4/last_four/last_four_ssn/last_name/last4/last4SSN/lastFour/lastName/latitude/longitude/merchant_name/merchant_name_ds/middle_initial/middle_name/name_on_account/nw_session_token/offer/online_bank_url/passwd/password/phone/phoneNumber/phone_number/phpsessid/postal_code/postalCode/region/routing_number/routingNumber/secret/sentry_dsn/social security number/social_security_number/socialSecurityNumber/ssn/state/street/street_address/streetAddress/streetAddress2/street2/token/uid/user_token/visitor_token/zip/zipcode"]},
+
+ clientToken: 'pub19aee42ff6289bc9dd0e0495f2b479d6',
+        applicationId: '19b0e97f-ec4a-44e8-beff-1702450ca1d3',

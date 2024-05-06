@@ -1,0 +1,10 @@
+turn.browserstack.com
+repeater.browserstack.com
+hub.browserstack.com
+cdp.browserstack.com
+rproxy.browserstack.com
+percy.io
+browserstack.com
+
+
+

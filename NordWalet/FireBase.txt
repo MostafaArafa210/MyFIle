@@ -1,0 +1,19 @@
+{"FIREBASE":{
+"APP_ID":"1:881857878405:web:ee172e4a98b200349f8cec"
+"AUTH_DOMAIN":"nerdwallet-identity.firebaseapp.com"
+"DATABASE_URL":"https://nerdwallet-identity.firebaseio.com"
+"MEASUREMENT_ID":"G-9MVJLR0LW8"
+"MESSAGING_SENDER_ID":881857878405
+"PROJECT_ID":"nerdwallet-identity"
+"PUBLIC_API_KEY":"AIzaSyB3o1Pl15KSNzNvPracIKx8KTIs6WP5fdw"
+"STORAGE_BUCKET":"nerdwallet-identity.appspot.com"
+"VAPID_KEY":"BE4f79KrgNY37AZx6l-xjLDDIszxzo2CAyc-9Q-jL1igDdL3SfKnzxmDdoHBAKxfx3Lqx1s0cSfT1ak4TUrCTnE"}}
+"WP_API_URL":"https://www.nerdwallet.com/api/wp"}
+
+
+
+
+curl -v -X POST "https://firebaseremoteconfig.googleapis.com/v1/projects/612345678909/namespaces/firebase:fetch?key=AIzaSyB3o1Pl15KSNzNvPracIKx8KTIs6WP5fdw" -H "Content-Type: application/json" --data '{"appId": "1:881857878405:web:ee172e4a98b200349f8cec", "appInstanceId": "PROD"}'
+
+
+https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=AIzaSyB3o1Pl15KSNzNvPracIKx8KTIs6WP5fdw

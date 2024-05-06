@@ -1,0 +1,14 @@
+https://dat.fmpilot2.com
+https://azqa-dat.fmpilot2.com
+https://dev-sso.fmpilot2.com
+https://dev-ssoadmin.fmpilot2.com
+https://azqa-ssoadmin.fmpilot2.com
+https://azqa-sso.fmpilot2.com
+https://azstaging-dat.fmpilot2.com
+https://azstaging-sso.fmpilot2.com
+https://azstaging-ssoadmin.fmpilot2.com
+https://m-api.fmpilot2.com
+https://regression-dat.fmpilot2.com
+https://regression-ssoadmin.fmpilot2.com/scripts
+https://regression-sso.fmpilot2.com/scripts
+https://tableau.fmpilot2.com

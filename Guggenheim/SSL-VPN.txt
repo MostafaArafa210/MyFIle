@@ -1,0 +1,12 @@
+https://gatewayeast.guggenheimpartners.com
+https://gatewaywest.guggenheimpartners.com
+https://ssologin-uat.guggenheimpartners.com/
+https://ssologin.guggenheimpartners.com  
+
+------------------------------------------
+-------------Palo-Alto--------------------
+------------------------------------------
+https://gw0e.guggenheimpartners.com/global-protect/login.esp
+https://gw1e.guggenheimpartners.com/global-protect/login.esp
+https://gw1c.guggenheimpartners.com/global-protect/login.esp
+https://gw1c.guggenheimpartners.com/global-protect/login.esp

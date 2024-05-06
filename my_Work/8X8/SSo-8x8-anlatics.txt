@@ -1,4 +1,4 @@
-  <script>
+<script>
         /*<![CDATA[*/
         const messages = {};
         messages['_8x8.login.errors.internalServerErrorContact8x8Admin'] = "Internal Server Error: Please contact your 8x8 system administrator.";
@@ -6,7 +6,7 @@
         messages['_8x8.login.errors.wentwrong'] = "Something went wrong.";
         messages['_8x8.login.errors.toomanyloginhelprequests'] = "Too many requests. Please try again later.";
         /*]]>*/
-    </script>
+</script>
 
 
 
@@ -44,3 +44,15 @@ https://localhost:8443/",pilot:"https://voapi.8x8pilot.com/",production:"https:/
 apiKey","4faS9xkafpq9vaq99bs5Zw==
 
 {CONTENTTYPE:{JSON:"application/json",URLENCODED:"application/x-www-form-urlencoded"}},SALESFORCE:{LOGINURL:"https://login.salesforce.com/services/oauth2/token",LOGINBODY:"grant_type=password&client_id=3MVG9sG9Z3Q1RlbeVDU4MyjcQlGZCAsS2a_JWo9hoNN3GfygqMeM8seH1cSKqF7X00wO3xqLp.WMKeYkvM7CG&client_secret=7839296452665118067"}
+
+
+
+https://github.com/8x8/knox/blob/d424ea9f1c79f01b9feefc52f0adcb7ddf13e195/src/.env#L12
+
+
+
+https://github.com/8x8/etcd-operator/blob/1dfe75b10b79cacef68efd0f643fb230984dad19/doc/design/s3_backup.md?plain=1#L25
+
+
+
+

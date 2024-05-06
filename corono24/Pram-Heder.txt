@@ -1,0 +1,168 @@
+braceletMaterial
+currencyId
+maxAgeInDays
+merchantId
+merchantLogin
+models
+pageSize
+priceFrom
+sellerType
+sortorder
+sortOrder
+specials
+vueFilter.hidden.sortorder
+x-original-url
+x-rewrite-url
+x-up-devcap-post-charset
+year
+emailDomId
+passwordDomId
+didYouMeanUrl
+watchPositions
+format=auto,compress&w=256&dpr=
+##-----------------------------## End-Point ## ---------------------------------------## 
+/user/notepad.htm
+("/api/user/opt-ins.json
+/auth/login.htm?userRegisterOrigin=AddToNotepad&continueTo=
+/others/show-modal.htm
+/layers/confirm-add-to-notepad-layer.htm
+js-log.htm
+/user/create-searchtask.htm
+/api/watch/available-notification.json
+/api/consent/update.json
+request-service/index.ts
+/localization-change.htm?ajax=1&suppressMobile=1
+/user/footer-newsletter-subscription-layer.htm?confirm&ajax
+/images/default/certified/certified-badge-green.svg
+/api/search/filtercategories.json",
+/api/search/filtergroups.json",
+/api/search/activefilter.json",
+##-----------------------------## End-Point ## ---------------------------------------## 
+##-----------------------------## --------- ## ---------------------------------------## 
+##-----------------------------## Hedear-Point ## ------------------------------------## 
+x-tracking-events
+tracking-conversion-events
+x-tracking-form-events
+age
+authorization
+content-length
+content-type
+etag
+expires
+from
+host
+if-modified-since
+if-unmodified-since
+last-modified
+location
+max-forwards
+proxy-authorization
+referer
+retry-after
+user-agent
+x-ab-test
+##-----------------------------## Hedear-Point ## ---------------------------------------## 
+##-----------------------------## ------------ ## ---------------------------------------## 
+##-----------------------------## Http-Method  ## ---------------------------------------## 
+common
+
+----------------------------------------------------------------------------------------------
+s.href += (-1 == s.href.indexOf("?") ? "?" : "&") + "SETLANG=" + encodeURI(l) + "&SETCURR=" + encodeURI(u), n = "country-link", r = l, o = u, a = (a = window.location.href).replace(/#.*/, ""), /\?/.test(a) && (/&$/.test(a) || (a += "&"), a = (a = a.replace(/SETLANG=.*?&/, "")).replace(/SETCURR=.*?&/, "")), /\?/.test(a) || (a += "?"), a += "SETLANG=" + r, -1 == (a += "&SETCURR=" + o).indexOf("goal_change_domain=1") && (a += "&goal_change_domain=1"), i.meta.language != r.substring(0, 2) && tce("".concat(i.meta.language, "-").concat(r.substring(0, 2), "|").concat(n), "change-language"), i.meta.currency.toLowerCase() != o.toLowerCase() && tce("".concat(i.meta.currency.toLowerCase(), "-").concat(o.toLowerCase(), "|").concat(n), "change-currency"), i.meta.country != r.substring(3, 2).toLowerCase() && tce("".concat(i.meta.country, "-").concat(r.substring(3, 2).toLowerCase(), "|").concat(n), "change-domain"), void 0 !== r && void 0 !== o && (window.location.href = a)
+                  }.bind(this))
+
+jQuery.validator.methods.email = function(value, element) {
+   return this.optional(element) || window.c24.validators.email(value);
+};
+jQuery.validator.methods.phone = function(value, element) {
+   return this.optional(element) || window.c24.validators.phone(value);
+};
+jQuery.validator.methods.notEmpty = function(value, element) {
+   return this.optional(element) || window.c24.validators.notEmpty(value);
+};
+jQuery.validator.methods.positiveWholeNumber = function(value, element) {
+   return this.optional(element) || window.c24.validators.positiveWholeNumber(value);
+};
+jQuery.validator.methods.notEqual = function(value, element, param) {
+   return this.optional(element) || value != param;
+};
+jQuery.validator.methods.usDollar = function(value, element) {
+   return this.optional(element) || window.c24.validators.usDollar(value);
+};
+$.validator.addMethod("bic", function(value, element) {
+   return this.optional(element) || /^([A-Z]{6}[A-Z2-9][A-NP-Z1-9])(X{3}|[A-WY-Z0-9][A-Z0-9]{2})?$/.test(value.toUpperCase());
+}, "Please specify a valid BIC code");
+$.validator.addMethod("extension", function(value, element, param) {
+   param = typeof param === "string" ? param.replace(/,/g, "|") : "png|jpe?g|gif";
+   return this.optional(element) || value.match(new RegExp("\\.(" + param + ")$", "i"));
+}, $.validator.format("Please enter a value with a valid extension."));
+$.validator.addMethod("iban", function(value, element) {
+   if (this.optional(element)) {
+      return true;
+   }
+   var iban = value.replace(/ /g, "").toUpperCase(),
+      ibancheckdigits = "",
+      leadingZeroes = true,
+      cRest = "",
+      cOperator, countrycode, ibancheck, charAt, cChar, bbanpattern, bbancountrypatterns, ibanregexp, i, p;
+   var minimalIBANlength = 5;
+   if (iban.length < minimalIBANlength) {
+      return false;
+   }
+
+
+
+(".js-article-item", "click", function(t) {
+            if (function(t, n) {
+                  if (t !== n) throw new TypeError("Cannot instantiate an arrow function")
+               }(this, e), !r.meta.isC && t.isTrusted && !t.ctrlKey) {
+               var n = t.currentTarget.closest(".js-article-item-container");
+               if (n) {
+                  t.preventDefault();
+                  var i = n.dataset.searchHash,
+                     o = n.dataset.searchItemPosition;
+                  window.location.href = t.currentTarget.href + "?searchHash=" + i + "&pos=" + o
+               }
+            }
+         }.bind(this))
+      }()
+   })()
+})();
+
+    O("generic_event", e, i)
+                        }("sort", o), this.searchResultSortingSelector.dataset.vl && (-1 !== n.indexOf("price") ? trackVisitorLogEvent(-1 !== n.indexOf("price-desc") ? "price-desc" : "price-asc") : "sortOrder: newest" === n && trackVisitorLogEvent("sort.newest"));
+                     var i = this.searchResultSortingSelector.value;
+                     i && (i = i.replace(/(?:&showpage=\d+)/g, ""), window.location.href = i)
+                  }.bind(this))
+               }, e
+
+ var n = i.detail,
+                              o = t.selectedFilterPills[n].searchParameters,
+                              l = Object.keys(o).slice();
+                           t.trackSelectedFilter(o, !1), this.emit("filter:remove-search-params", o), t.selectedFilterPills.splice(n, 1), 0 === t.selectedFilterPills.length ? l.includes("manufacturerIds") ? t.redirectUrl = "/search/browse.htm" : t.redirectUrl = "/search/categories.htm" : t.redirectUrl = null, t.open ? t.$nextTick(function() {
+                              Tr(this, r), this.emit("filter:retrieve")
+                           }.bind(this)) : t.$nextTick(function() {
+                              Tr(this, r), t.submit()
+                           }.bind(this))
+                        }.bind(this)), y.addEventListener("filter:reset-query", function() {
+                           Tr(this, e), t.searchParameters.query = ""
+                        }.bind(this)), y.addEventListener("filter:reset:desktop", function() {
+                           Tr(this, e), t.trackFilterReset(), t.reset()
+                        }.bind(this)), y.addEventListener("filter:reset:mobile", function() {
+                           Tr(this, e), t.trackFilterReset(), t.reset()
+                        }.bind(this)), y.addEventListener("filter:hide-sticky-footer", function() {
+                           Tr(this, e), t.isMobile && (t.isStickyFooter = !1)
+                        }.bind(this)), y.addEventListener("filter:show-sticky-footer", function() {
+                           Tr(this, e), t.isMobile && (t.isStickyFooter = !0)
+                        }.bind(this)), y.addEventListener("filter:navigation", function(t) {
+                           var i = this;
+                           Tr(this, e);
+
+ submit: function() {
+                        var e = this,
+                           t = this.filterHasAnyChanges();
+                        if (e.open && this.trackFilterSubmit(t), t)
+                           if (this.submitted = !0, null !== e.redirectUrl && 0 === e.selectedFilterPills.length) window.location.href = e.redirectUrl;
+                           else {
+                              var i = N.createQuery(this.getSearchParameters());
+                              window.location.href = "/search/index.htm" + i
+ var M = ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
