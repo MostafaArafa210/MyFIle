@@ -1,0 +1,78 @@
+##------------------------------------------##
+------------guggenheimpartners.com------------
+##------------------------------------------##
+login.aspx
+/AGServices/tokenitms?url=
+/cgi/logout
+/lp/
+receiver/images/common/
+itms-services://?action=download-manifest&url=
+---------------------------------------------
+Disallow: /appliance/
+Disallow: /login/
+Disallow: /api/
+Disallow: /files/
+ "customer_name",
+ "customer_company_code",
+ "customer_company",
+ "customer_desc",
+ details
+ "external_key"
+ company_code
+ name
+ company
+ company_code                                              
+x\u003Cimg S+r+C=x+onerror=console\u003E
+
+##------------------------------------------##
+------------guggenheimpartners.com------------
+##------------------------------------------##
+
+https://us.watermarker.singletrack.io/48891.pdf?data=&s3Url=https://guggenheim-singletrack.s3.amazonaws.com/48891.pdf?X-Amz-Signature=ee1fbdc501a69702684649348d40dde64959b01d24a23e237f80951e6fbe22d3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAW3DTAMO2BDTBKES7/20240507/us-east-1/s3/aws4_request&X-Amz-Date=20240507T010237Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host
+
+
+X-Amz-Signature=ee1fbdc501a69702684649348d40dde64959b01d24a23e237f80951e6fbe22d3&
+X-Amz-Algorithm=AWS4-HMAC-SHA256&
+X-Amz-Credential=AKIAW3DTAMO2BDTBKES7/20240507/us-east-1/s3/aws4_request&
+X-Amz-Date=20240507T010237Z&
+X-Amz-Expires=86400&
+X-Amz-SignedHeaders=host
+
+##------------------------------------------##
+----remoteassist.guggenheimpartners.com-------
+##------------------------------------------##
+
+api                     
+cache                   
+chat                    
+console/                
+content                 
+favicon.ico             
+files                   
+files/                  
+help                    
+login/                  
+login_form/             
+nl/                     
+presentation            
+probe                   
+robots.txt              
+sample/                 
+samples/                
+templates               
+vendor/                 
+vendors/                
+
+ fallbackURL: _() + "/download_client_connector?api=1" + (s ? "&cobrowse=1" : "") + "&g-public-errorType=minimal_html" + (v || w ? "" : "&minimalInstructions=1") + L.encodeURLParameters(e) + o
+ downloadLink: _() + "/api/start_session?" + (s ? "cobrowse=1" : "") + L.encodeURLParameters(e) + o + r + "&download=1",
+ skipAuthenticationConfirm") ? s || !i.hasOwnProperty("sessionKey") || i.hasOwnProperty("skipConfirm") ? i.hasOwnProperty("rep") && !i.hasOwnProperty("skipConfirm") ? (l.ajax(I({
+            url: _() + "/portal/check-rep",
+ /portal/access-key-confirmation
+ /portal/instructions/customer
+ /portal/instructions/clickonce
+ /clickonce/" + r.clickonceVersion + "/CustomerClientStarter.application?source=" + encodeURIComponent(r.fallbackURL + "&download=1") + "&useragent=" + encodeURIComponent(i) + "&_cachebuster=" + (new Date).getTime(),
+
+
+
+
+
