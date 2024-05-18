@@ -1,16 +1,149 @@
-chile.transunion.com
-neustar.biz
-neustarcare.com
-npac.com
-transunion.ca
-transunion.co.br
-transunion.co.uk
-transunion.co.za
-transunion.com
-transunion.do
-transunion.hk
-transunion.mx
-transunion.ph
-transunionafrica.com
-transunioncentralamerica.com
-tui.transunion.com
+ chile.transunion.com
+ neustar.biz
+ neustarcare.com
+ npac.com
+ transunion.ca
+ transunion.co.br
+ transunion.co.uk
+ transunion.co.za
+ transunion.com
+ transunion.do
+ transunion.hk
+ transunion.mx
+ transunion.ph
+ transunionafrica.com
+ transunioncentralamerica.com
+ tui.transunion.com
+ va.npac.com
+ nc.npac.com
+ hsp.transunion.com
+ transunioncleariq.com
+ kmtest4.transunion.com
+66.175.240.160
+66.175.241.234
+66.175.250.14/FUZZ
+66.175.244.81
+66.175.244.59
+66.175.244.109
+66.175.244.80
+66.175.244.87
+66.175.244.100
+66.175.244.79
+66.175.244.39
+66.175.244.57
+66.175.244.112
+66.175.249.197
+66.175.250.14
+66.175.249.68
+
+Trans Union LLC
+whmailbox@transunion.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MTNANO~1             MTNANO?
+MRPRIC~1             MRPRIC?
+WEB~1.CON            WEB.CON?
+TUDECI~1             TUDECI?
+FICPRO~1             FICPRO?
+DEIDMS~3             DEIDMS?
+DETRUW~3             DETRUW?
+KURALI~1             KURALI?
+DCNEDB~2             DCNEDB?
+DCFICB~2             DCFICB?
+DCMRPR~2             DCMRPR?
+DCRAIN~2             DCRAIN?
+DETRUW~2             DETRUW?
+DEIDMS~2             DEIDMS?
+DSJDGR~1             DSJDGR?
+AUTOPR~1             AUTOPR?
+DSSMSR~1             DSSMSR?
+DCMARI~1             DCMARI?
+DSTENA~1             DSTENA?
+DCMRPR~1             DCMRPR?
+DCFICB~1             DCFICB?
+DCGENE~1             DCGENE?
+DCSATA~1             DCSATA?
+DCCRED~1             DCCRED?
+ASPNET~1             ASPNET?             https://de.transunion.co.za/aspnet_client
+DECISI~2             DECISI?
+DCWOOL~1             DCWOOL?
+DCRAIN~1             DCRAIN?
+DCREPE~1             DCREPE?
+DEFOSC~1             DEFOSC?
+DCUSER~1             DCUSER?
+DEFULL~1             DEFULL?
+DCDIRE~1             DCDIRE?
+DEMAIN~1             DEMAIN?
+DEMRPR~1             DEMRPR?
+DEGLOC~1             DEGLOC?
+DETRUW~1             DETRUW?
+DESTRI~1             DESTRI?
+DETENA~1             DETENA?
+DETELK~1             DETELK?
+DEDIRE~1             DEDIRE?
+DEIDMF~1             DEIDMF?
+DEIDMT~1             DEIDMT?
+DEIDMG~1             DEIDMG?
+DEIDMM~1             DEIDMM?
+DEIDMS~1             DEIDMS?
+DEIDML~1             DEIDML?
+DEASYN~1             DEASYN?
+DEAVON~1             DEAVON?
+DEABSA~1             DEABSA?
+DEAUTO~1             DEAUTO?
+INDIVI~1             INDIVI?
+DECISI~1             DECISI?
+GENERI~1             GENERI?
+MOBILE~1             MOBILE?
+TUTSO~1.DOC          TUTSO.DOC?
+TUTSO~2.DOC          TUTSO.DOC?
+PORTAL~1.5OM         PORTAL?.5OM?
+INSTAN~1             INSTAN?
+MOBILE~2             MOBILE?
+════════════════════════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════════════════════════
+URL: https://de.transunion.co.za/ASPNET_CLIENT/
+Running: cloudflare [!]
+Vulnerable: Yes!
+════════════════════════════════════════════════════════════════════════════════
+SYSTEM~1             SYSTEM?             https://de.transunion.co.za/ASPNET_CLIENT/system_web
+════════════════════════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════════════════════════
+URL: https://de.transunion.co.za/ASPNET_CLIENT/SYSTEM_WEB/
+Running: cloudflare [!]
+Vulnerable: Yes!
+════════════════════════════════════════════════════════════════════════════════
+4_0_30~1             4_0_30?
+2_0_50~1             2_0_50?
+════════════════════════════════════════════════════════════════════════════════
+
+Finished! Requests: 5576; Retries: 0; Sent 1108452 bytes; Received 11237950 bytes
