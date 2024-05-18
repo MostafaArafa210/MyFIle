@@ -5,5 +5,10 @@
   "cSpell.words": [
     "figlet",
     "inpu"
-  ]
+  ],
+  "snyk.features.openSourceSecurity": false,
+  "snyk.features.infrastructureAsCode": false,
+  "snyk.features.codeQuality": false,
+  "snyk.features.codeSecurity": false,
+  "snyk.scanningMode": "manual"
 }
