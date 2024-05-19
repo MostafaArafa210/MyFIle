@@ -1,2 +1,4 @@
 test.neustarcare.com
 www.neustarcare.com
+www.neustarcare.com
+_autodiscover._tcp.neustarcare.com
