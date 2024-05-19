@@ -1,0 +1,17 @@
+https://externocore.aeromexico.com/robots.txt
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=14296
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=28716
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=28716&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&oas=B9OXA7mtPllUW4zXD_cQvw..&params=UCaDzA1He1L6VvojtU5VROk0xOjpjI6AckcSUVI-QMsDt-PppuY-6Y4nqJKDuTdHghQFVqXsJxOv.uGD2ZVzqeHj0A4BDq0nxMaEANcaWcQx6C9Td5.rOCFnrxyBoM-Wf4EJXYupljOnn.1XT16bvODrif5oAxcjCMAIc5KnE4Ke26UURDpOKWlEiWpkvVlnNxx5TYbrGqdskszhbE3W6zjjoRH7xeqViwet.7U0bGL-7nZ3Rr2HCESVkpGj0.Sm9VC3pJZdw1mHVrZDNppZJl0aFWd5W7teDIcUIYOjgIg.oWMHkHhAUopDX.wprM2rjYoqeQScqyp-ZKj3pKyzdctbdljjbbGpuFcgn9EqcIK2mCbPrcRcoHfm2q8yolglawa6dIEZ2d7VF.eURVdCPX0KuqCksUotnQS.8akEtKdDz15Uy2jWrhvd4zBX876pdBfc-6Xi..JTSKKmFf8jjfTGfSRJZoiK0LSwQLRqaro
+https://externocore.aeromexico.com/OA_HTML/AppsLogin
+https://externocore.aeromexico.com/OA_HTML/OA.jsp?page=/xxpyd/oracle/apps/xbol/pyd/cont/listados/main/webui/XxPydConsultaVistaSeleccionEmpleadosPG&addP=Y&modo=self&read_only=Y&language_code=ESA&OAFMID=87785&searchType=search&fwkQBSearchTypeSource=/xxpyd/oracle/apps/xbol/pyd/cont/listados/main/webui/XxPydConsultaVistaSeleccionEmpleadosPG__QueryRN__20003&_ti=928302978&retainAM=Y&addBreadCrumb=Y&OAPB=_OAFMID&oapc=38&oas=vsg2xPQe6wJnLL5NN9Wnuw
+https://externocore.aeromexico.com/OA_HTML/AppsLocalLogin.jsp
+https://externocore.aeromexico.com/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE
+https://externocore.aeromexico.com/OA_CGI/
+https://externocore.aeromexico.com
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=28716&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&oas=r0UJHjKV7VjppeBU5G_3Mw..&params=xmeNDIdgZHskfQXqwC5yNg
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=28716&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&oas=G44p8pn1PJxNKDjgTCZ8Lg..&params=xmeNDIdgZHskfQXqwC5yNg
+https://externocore.aeromexico.com/OA_CGI/FNDWRR.exe?temp_id=1403656134
+http://externocore.aeromexico.com/
+https://externocore.aeromexico.com/oa_html/appslogin
+https://externocore.aeromexico.com/OA_HTML/RF.jsp?function_id=28716&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&oas=3-p_HiFMPAQmnK-ve7QkZA..&params=xmeNDIdgZHskfQXqwC5yNg
+https://externocore.aeromexico.com/
