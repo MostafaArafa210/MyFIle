@@ -1,0 +1,6 @@
+*.dsiins.com,
+*.mywirelessclaim.com,
+*.myassurantpolicy.com,
+*.rentersecurity.com,
+*.insuranceclaimcheck.com,
+*.idfraudsolutions.com,
