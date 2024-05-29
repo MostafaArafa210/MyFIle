@@ -1,0 +1,5 @@
+Fuzz Faster U Fool - v2.1.0-dev
+[2Kdb_backup.sql.rar       [Status: 200, Size: 6913, Words: 1669, Lines: 152, Duration: 649ms][0m
+[2Kindex.php               [Status: 200, Size: 6913, Words: 1669, Lines: 152, Duration: 481ms][0m
+[2Ktests/ZendTest/Di/TestAsset/ComposedClass.php [Status: 200, Size: 6913, Words: 1669, Lines: 152, Duration: 655ms][0m
+[2Kwp-content/plugins/wp-o-matic/inc/admin/helper/tag.helper.php [Status: 500, Size: 282, Words: 10, Lines: 2, Duration: 2768ms][0m
