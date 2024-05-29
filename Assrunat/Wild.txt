@@ -1,4 +1,4 @@
-*.dsiins.com,
+*.dsiins.com
 *.mywirelessclaim.com,
 *.myassurantpolicy.com,
 *.rentersecurity.com,
