@@ -1,6 +1,6 @@
-## End-Point 
+### End-Point
 
-- hostname/pathname/environments/ 
+- hostname/pathname/environments/
 /ui/v1,
 /data/v1,
 /video/v1,
