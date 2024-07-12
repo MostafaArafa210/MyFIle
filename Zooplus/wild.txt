@@ -20,5 +20,6 @@ zooplus.nl
 zooplus.no
 zooplus.pl
 zooplus.pt
-zooplus.ro
+zooplus.ros
 zooplus.se
+*.private.zooplus.netapp.payfit.com

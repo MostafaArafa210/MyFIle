@@ -1,0 +1,359 @@
+
+Target: https://webinars.sitecore.com/api/file/upload
+
+ /api/concatenate/
+/api/concatenate/.adp
+Added to the queue: api/
+
+ Starting: api/
+ 162B  - /api/site/payment
+Added to the queue: api/site/
+  16B  - /api/.adp
+ 783B  - /api/user/list
+Added to the queue: api/user/
+ 162B  - /api/user/update
+ 163B  - /api/photo/frame
+Added to the queue: api/photo/
+ 224B  - /api/file/upload
+Added to the queue: api/file/
+  12KB - /api/photo/list
+  18KB - /omr-virtual-panel-was-kundinnen
+   1KB - /style/javascript/66.js
+Added to the queue: style/, style/javascript/
+  39KB - /resources/um/script/libraries/bootstrap/bootstrap-3.3.1.min.js
+Added to the queue: resources/, resources/um/, resources/um/script/, resources/um/script/libraries/, resources/um/script/libraries/bootstrap/
+  10KB - /resources/um/script/libraries/inline-collector-1.0.js
+  35KB - /resources/um/script/libraries/faye-1.0/faye-browser-min.js
+Added to the queue: resources/um/script/libraries/faye-1.0/
+   8KB - /resources/um/script/libraries/feed-1.0.js
+   1KB - /resources/um/script/libraries/account-1.0.js
+  12KB - /resources/um/script/libraries/comments-1.0.js
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=86445232&autoPlay=1
+Added to the queue: v.ihtml/
+ 229KB - /v.ihtml/player.js
+ 172KB - /resources/um/script/jquery/jquery-recent-migrate-noconflict.min.js
+Added to the queue: resources/um/script/jquery/
+   4KB - /resources/um/script/libraries/visualplatform-1.1.min.js
+  91KB - /resources/um/script/libraries/localtime/localtime.min.js
+Added to the queue: resources/um/script/libraries/localtime/
+ 845B  - /style/integrations/i.min.js
+Added to the queue: style/integrations/
+   2KB - /resources/um/script/libraries/realtime-1.0.js
+   3KB - /resources/um/script/libraries/responsive-tabs/responsive-tabs.min.js
+Added to the queue: resources/um/script/libraries/responsive-tabs/
+   2KB - /resources/um/script/libraries/persist-1.0.js
+  19KB - /on-demand-webinar-business-case-for
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=101992491&autoPlay=1
+  18KB - /sitecore-personalize-community-1
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=100693127&autoPlay=1
+  18KB - /72715isvemeaep101retail
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=100903193&autoPlay=1
+  18KB - /mit-gen-ai-in
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=94118020&autoPlay=1
+  18KB - /ready-for-ai-shopping-and
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=94438667&autoPlay=1
+  18KB - /digital-asset-management-martechs
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=89413595&autoPlay=1
+  19KB - /webinar-mastering-sitecore-search
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=95481074&autoPlay=1
+  18KB - /5-mythen-uber-hybride-headless-cms
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=90618729&autoPlay=1
+  18KB - /ai-in-the-composable-era
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=99703128&autoPlay=1
+  18KB - /sitecore-webit-webinar-digitale
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=100737978&autoPlay=1
+  18KB - /sitecore-dx-2023-minneapolis-full
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=90251522&autoPlay=1
+  18KB - /5-myths-about-hybrid-headless-cms-1
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=90114721&autoPlay=1
+  19KB - /webinar-the-ai-revolution-in
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=101957531&autoPlay=1
+  18KB - /transform-your-marketing-operations
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=86251018&autoPlay=1
+  20KB - /xm-cloud-modernizing-the-customer-1
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=86066099&autoPlay=1
+  20KB - /decoding-the-matrix-navigating-ai
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=91824649&autoPlay=1
+  18KB - /die-macht-des-suchfeldes-das
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=89568527&autoPlay=1
+  18KB - /sitecore-bachmans-horizontal-full-o
+ /v.ihtml/player.html?showDescriptions=0&source=site&photo%5fid=87307326&autoPlay=1
+ 168B  - /api/comment/add
+Added to the queue: api/comment/
+ 144B  - /api/site/search
+ 147B  - /api/echo
+ 164B  - /api/user/create
+
+ Starting: api/site/
+ 144B  - /api/site/search/opensearch/$
+Added to the queue: api/site/search/, api/site/search/opensearch/
+ 144B  - /api/site/search?*
+ 144B  - /api/site/search/?
+ 144B  - /api/site/search/index/ssearch
+Added to the queue: api/site/search/index/
+ 144B  - /api/site/search/gss
+ 162B  - /api/site/payment/rccashrecharge
+Added to the queue: api/site/payment/
+ 144B  - /api/site/search?
+ 162B  - /api/site/payment/go
+ 474B  - /api/site/search.json
+ 144B  - /api/site/search/abo
+   1KB - /api/site/get
+ 144B  - /api/site/search/results.html
+ 144B  - /api/site/search/test.txt
+ 144B  - /api/site/search/users
+ 144B  - /api/site/search/http
+ 144B  - /api/site/search/car
+ 144B  - /api/site/search/hdpmapresults.htm
+ 144B  - /api/site/search/module
+ 144B  - /api/site/search/banners
+ 162B  - /api/site/payment/termofuse
+ 144B  - /api/site/search/cedric
+ 144B  - /api/site/search/searchareacode
+ 144B  - /api/site/search/unavailable.php
+ 143B  - /api/site/search/agents/goto.htm
+Added to the queue: api/site/search/agents/
+ 143B  - /api/site/search/findhotels.mi
+ 144B  - /api/site/search/reportplus$
+ 143B  - /api/site/search/new/autonew.html
+Added to the queue: api/site/search/new/
+ 144B  - /api/site/search/getalllocation
+ 144B  - /api/site/search$
+ 144B  - /api/site/search/page
+ 144B  - /api/site/search/go
+ 162B  - /api/site/invoices/1
+Added to the queue: api/site/invoices/
+ 144B  - /api/site/search/click.php
+ 144B  - /api/site/search/find.html
+ 144B  - /api/site/search/show.pl
+ 144B  - /api/site/search/text/academy.html
+Added to the queue: api/site/search/text/
+ 223B  - /api/site/list/24.html
+Added to the queue: api/site/list/
+ 162B  - /api/site/payment.xml
+ 144B  - /api/site/search/images
+ 223B  - /api/site/list/registro
+ 143B  - /api/site/search/option
+ 144B  - /api/site/search/other
+ 162B  - /api/site/invoices/1/items
+Added to the queue: api/site/invoices/1/
+   1KB - /api/site/get/official
+Added to the queue: api/site/get/
+ 144B  - /api/site/search/wpf$
+ 144B  - /api/site/*/search/*
+Added to the queue: api/site/*/, api/site/*/search/
+ 144B  - /api/site/search/results
+ 144B  - /api/site/search/results.cfm
+ 144B  - /api/site/search/productsearch
+ 144B  - /api/site/search/pornstars
+ 144B  - /api/site/search/momanswers.htm
+ 144B  - /api/site/search/?q=*
+ 144B  - /api/site/search/vertical/media.photo
+Added to the queue: api/site/search/vertical/
+ 143B  - /api/site/search/people
+ 144B  - /api/site/search/quick.do
+ 144B  - /api/site/search/psearch.php
+ 162B  - /api/site/payment/cash
+ 143B  - /api/site/search/gsasearchotherresources
+ 162B  - /api/site/payment/$
+ 144B  - /api/site/search/documents
+ 144B  - /api/site/search/edittemplate
+ 144B  - /api/site/search/x
+ 144B  - /api/site/search/vehiclecompare
+ 144B  - /api/site/search?qu=
+ 144B  - /api/site/search/s
+ 144B  - /api/site/search/search
+ 144B  - /api/site/search/</pre></body></html>
+Added to the queue: api/site/search/</, api/site/search/</pre></, api/site/search/</pre></body></
+ 171B  - /api/site/create/domain
+Added to the queue: api/site/create/
+ 144B  - /api/site/search/android$
+ 144B  - /api/site/search/subject
+ 144B  - /api/site/search/talent
+ 162B  - /api/site/invoices/1/discounts
+ 144B  - /api/site/search/vacantion
+ 144B  - /api/site/search/simple
+ 144B  - /api/site/search/refinesearch.mi
+ 144B  - /api/site/search/?q=
+ 144B  - /api/site/search/map.aspx
+ 144B  - /api/site/search/jobsearchresults/country
+Added to the queue: api/site/search/jobsearchresults/
+   1KB - /api/site/get/users/ajax
+Added to the queue: api/site/get/users/
+ 144B  - /api/site/search/footerad
+ 144B  - /api/site/search/podcast/?
+Added to the queue: api/site/search/podcast/
+ 144B  - /api/site/search/label/$
+Added to the queue: api/site/search/label/
+ 162B  - /api/site/payment/accountinformation
+ 144B  - /api/site/search/morelikethis
+ 162B  - /api/site/payment/authorizenetdirectpr
+ 144B  - /api/site/search/advertise/?
+Added to the queue: api/site/search/advertise/
+ 162B  - /api/site/payment/notification
+ 144B  - /api/site/search/translations
+ 145B  - /api/site/search/hotel/fullsearch
+Added to the queue: api/site/search/hotel/
+ 144B  - /api/site/search/search.jsp
+ 144B  - /api/site/search/shareplus$
+ 144B  - /api/site/*/search?
+ 144B  - /api/site/search/listall
+ 144B  - /api/site/search/emloyer/addrecruiter
+Added to the queue: api/site/search/emloyer/
+ 224B  - /api/site/plans/login
+Added to the queue: api/site/plans/
+ 144B  - /api/site/search/keyword/page/8
+Added to the queue: api/site/search/keyword/, api/site/search/keyword/page/
+ 162B  - /api/site/payment/authorizenetcim
+ 144B  - /api/site/search/content
+ 162B  - /api/site/invoices/list
+   1KB - /api/site/get/code
+ 144B  - /api/site/search/agents.htm
+ 162B  - /api/site/payment/success.html
+ 144B  - /api/site/search?query=eztfdhwp&sort=relevance
+ 144B  - /api/site/search/detail
+ 144B  - /api/site/*search?*
+ 144B  - /api/site/search/*?before=*
+ 144B  - /api/site/search/sqlqhit.asp
+ 144B  - /api/site/search/download
+ 144B  - /api/site/search/all
+ 144B  - /api/site/search/class2
+ 144B  - /api/site/search/offers
+ 144B  - /api/site/search/keys
+ 162B  - /api/site/payment/redsys
+ 144B  - /api/site/search/hotels
+ 162B  - /api/site/payment/cheque
+  16B  - /api/site/.adp
+ 144B  - /api/site/search/jobsearchresults/jobtype
+ 162B  - /api/site/payment/authorizenetdirect
+ 144B  - /api/site/search/addcompany
+ 144B  - /api/site/search/topics
+ 143B  - /api/site/search/ajaxgetbrandid
+ 144B  - /api/site/search/author
+ 223B  - /api/site/list/share.aspx
+ 144B  - /api/site/*/search*
+ 223B  - /api/site/list/tag
+ 144B  - /api/site/search/inc
+ 144B  - /api/site/search/near
+ 223B  - /api/site/list
+ 144B  - /api/site/search/suggestboxresult
+ 162B  - /api/site/invoices/search
+ 144B  - /api/site/search/hotel/details/reviews
+Added to the queue: api/site/search/hotel/details/
+ 143B  - /api/site/search/embedded
+ 144B  - /api/site/search/anf/?
+Added to the queue: api/site/search/anf/
+ 143B  - /api/site/search_xml
+ 144B  - /api/site/search/search.cgi
+ 143B  - /api/site/search/search.pl
+ 223B  - /api/site/list/ofinterest.aspx
+ 144B  - /api/site/search\v1\Addresses
+ 162B  - /api/site/payment/banktransfer
+ 144B  - /api/site/search/results/index.cfm
+Added to the queue: api/site/search/results/
+ 144B  - /api/site/search/search.asp
+ 144B  - /api/site/*search*
+ 144B  - /api/site/search/hotel/filteredsearch
+ 144B  - /api/site/search/m.emag.ro
+ 144B  - /api/site/search/advanced
+ 143B  - /api/site/search/simple.do
+ 143B  - /api/site/search/subscribealerts
+ 144B  - /api/site/search/channel
+ 144B  - /api/site/search/searchwidget.aspx
+ 144B  - /api/site/search/classes
+ 144B  - /api/site/search/commits
+ 143B  - /api/site/search/hotel/quicksearch
+ 144B  - /api/site/search/advancedsearchresult.aspx
+ 144B  - /api/site/search/quicksearch.html
+ 143B  - /api/site/search/blogs
+ 144B  - /api/site/search/archive.html
+ 144B  - /api/site/search/help
+ 224B  - /api/site/plans.xml
+ 144B  - /api/site/search/jobsearchresults/marketsector
+ 162B  - /api/site/invoices/1/update
+ 162B  - /api/site/invoices/1/customer
+ 144B  - /api/site/search</pre></body></html>
+Added to the queue: api/site/search</, api/site/search</pre></, api/site/search</pre></body></
+ 143B  - /api/site/search/searchsubmit.aspx
+ 144B  - /api/site/search/hotel/details/lastviewedhotels
+ 144B  - /api/site/search/gear.htm
+ 144B  - /api/site/search/*
+ 162B  - /api/site/payment/deeplink
+ 144B  - /api/site/search/sitemap
+ 144B  - /api/site/search/silverlight$
+ 144B  - /api/site/search/autocomplete
+ 226B  - /api/site/plans.json
+ 144B  - /api/site/search/advanced/?
+Added to the queue: api/site/search/advanced/
+ 223B  - /api/site/list/print.aspx
+ 162B  - /api/site/payment/wait.html
+ 223B  - /api/site/list/25.html
+ 162B  - /api/site/invoices/1/status
+ 144B  - /api/site/search/issues
+ 162B  - /api/site/payment/notifications
+ 143B  - /api/site/search/r$
+ 223B  - /api/site/list/search
+ 144B  - /api/site/search/category.asp
+ 143B  - /api/site/search/viewjobinvitation
+ 143B  - /api/site/search/hotel/summariesandreviews
+ 144B  - /api/site/search/obituaries/?
+Added to the queue: api/site/search/obituaries/
+ 144B  - /api/site/*/search
+ 143B  - /api/site/search/query.html
+ 144B  - /api/site/search/label$
+ 144B  - /api/site/search/world
+ 144B  - /api/site/search/feedback.html
+ 144B  - /api/site/search?fulltext=1&search_submit=search
+ 144B  - /api/site/search/htx/sqlqhit.asp
+Added to the queue: api/site/search/htx/
+ 143B  - /api/site/search/proxy
+ 143B  - /api/site/search/ios$
+ 224B  - /api/site/plans
+ 144B  - /api/site/search/hotel/details/streetview
+ 144B  - /api/site/search/totosearchtop
+ 144B  - /api/site/search/?*
+ 144B  - /api/site/search/advanced/process
+ 144B  - /api/site/search?search_key={{1337*1338}}
+ 144B  - /api/site/search?q=
+ 162B  - /api/site/payment/process
+ 144B  - /api/site/search/api*
+ 144B  - /api/site/search/realtime
+ 143B  - /api/site/search/jobs
+ 143B  - /api/site/search/publishingimages
+ 143B  - /api/site/search/get
+ 144B  - /api/site/search/status
+ 144B  - /api/site/search/dolorum
+ 144B  - /api/site/search/$
+ 144B  - /api/site/search/api
+ 144B  - /api/site/search/cedric+bihr
+ 223B  - /api/site/list/add
+ 144B  - /api/site/search/support$
+ 144B  - /api/site/search/*?language=*
+ 144B  - /api/site/*/search$
+ 162B  - /api/site/payment/fail.html
+ 144B  - /api/site/*search
+ 144B  - /api/site/search/sc
+ 144B  - /api/site/search/contactform
+ 144B  - /api/site/search/listing
+ 144B  - /api/site/search/ajaxencode
+ 144B  - /api/site/search/groups
+ 144B  - /api/site/search.xml
+ 144B  - /api/site/search/xamarin$
+
+
+
+
+
+
+
+
+
+
+
+
+
+services.support.sitecore.com, 
+www.services.support.sitecore.com
+
+containers.doc.sitecore.com, 
+www.containers.doc.sitecore.com

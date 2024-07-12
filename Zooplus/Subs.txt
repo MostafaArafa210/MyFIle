@@ -13,6 +13,8 @@ beta-m.zooplus.fr
 beta-m.zooplus.nl
 beta-www.zooplus.com
 beta-www.zooplus.dk
+https://fraud-gateway-proxy.public.zooplus.net
+https://fraud-gateway-proxy-dev.private.zooplus.net
 beta-www.zooplus.fr
 beta-www.zooplus.nl
 bitiba-at.public.zooplus.net

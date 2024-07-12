@@ -1,0 +1,658 @@
+.elementor-144 .elementor-element.elementor-element-c9a4aec:not(.elementor-motion-effects-element-type-background),
+.elementor-144 .elementor-element.elementor-element-c9a4aec>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #242948
+}
+
+.elementor-144 .elementor-element.elementor-element-c9a4aec {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    padding: 30px 0 10px
+}
+
+.elementor-144 .elementor-element.elementor-element-c9a4aec>.elementor-background-overlay {
+    transition: background .3s, border-radius .3s, opacity .3s
+}
+
+.elementor-144 .elementor-element.elementor-element-66b52aa>.elementor-element-populated {
+    margin: 0;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px
+}
+
+.elementor-144 .elementor-element.elementor-element-81cc10d {
+    text-align: left;
+    width: 150px;
+    max-width: 150px
+}
+
+.elementor-144 .elementor-element.elementor-element-81cc10d>.elementor-widget-container {
+    margin: 0 0 20px
+}
+
+.elementor-144 .elementor-element.elementor-element-a7a210e .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 1.8em
+}
+
+.elementor-144 .elementor-element.elementor-element-8333b74 .elementor-icon-list-icon i {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-8333b74 .elementor-icon-list-icon svg {
+    fill: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-8333b74 {
+    --e-icon-list-icon-size: 14px
+}
+
+.elementor-144 .elementor-element.elementor-element-8333b74 .elementor-icon-list-text {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-8333b74 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-144 .elementor-element.elementor-element-8333b74 .elementor-icon-list-item>a {
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 2.5em
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13 .elementor-icon-wrapper {
+    text-align: left
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13.elementor-view-stacked .elementor-icon {
+    background-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-bf9fc13.elementor-view-default .elementor-icon {
+    color: #000;
+    border-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-bf9fc13.elementor-view-default .elementor-icon svg {
+    fill: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13 .elementor-icon {
+    font-size: 115px
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13 .elementor-icon i,
+.elementor-144 .elementor-element.elementor-element-bf9fc13 .elementor-icon svg {
+    transform: rotate(0deg)
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13>.elementor-widget-container {
+    margin: -25px 10px -50px 0
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13 {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e .elementor-icon-wrapper {
+    text-align: left
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e.elementor-view-stacked .elementor-icon {
+    background-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-ccf241e.elementor-view-default .elementor-icon {
+    color: #000;
+    border-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-ccf241e.elementor-view-default .elementor-icon svg {
+    fill: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e .elementor-icon {
+    font-size: 115px
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e .elementor-icon i,
+.elementor-144 .elementor-element.elementor-element-ccf241e .elementor-icon svg {
+    transform: rotate(0deg)
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e>.elementor-widget-container {
+    margin: -25px 10px -50px 0
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a .elementor-icon-wrapper {
+    text-align: left
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a.elementor-view-stacked .elementor-icon {
+    background-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-25a2b8a.elementor-view-default .elementor-icon {
+    color: #000;
+    border-color: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a.elementor-view-framed .elementor-icon,
+.elementor-144 .elementor-element.elementor-element-25a2b8a.elementor-view-default .elementor-icon svg {
+    fill: #000
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a .elementor-icon {
+    font-size: 115px
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a .elementor-icon i,
+.elementor-144 .elementor-element.elementor-element-25a2b8a .elementor-icon svg {
+    transform: rotate(0deg)
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a>.elementor-widget-container {
+    margin: -25px 10px -50px 0
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-c73c9df .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 14.86px
+}
+
+.elementor-144 .elementor-element.elementor-element-c73c9df>.elementor-widget-container {
+    margin: 20px 0 0
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(--10px/2);
+    margin-left: calc(--10px/2)
+}
+
+body.rtl .elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(--10px/2)
+}
+
+body:not(.rtl) .elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(--10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c {
+    --e-icon-list-icon-size: 14px
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-text {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-144 .elementor-element.elementor-element-b87ac0c .elementor-icon-list-item>a {
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 2.5em
+}
+
+.elementor-144 .elementor-element.elementor-element-a58736d .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 14.86px
+}
+
+.elementor-144 .elementor-element.elementor-element-a58736d>.elementor-widget-container {
+    margin: 20px 0 0
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(--10px/2);
+    margin-left: calc(--10px/2)
+}
+
+body.rtl .elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(--10px/2)
+}
+
+body:not(.rtl) .elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(--10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 {
+    --e-icon-list-icon-size: 14px
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-text {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-144 .elementor-element.elementor-element-15e0338 .elementor-icon-list-item>a {
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 2.5em
+}
+
+.elementor-144 .elementor-element.elementor-element-d34f27d .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 14.86px
+}
+
+.elementor-144 .elementor-element.elementor-element-d34f27d>.elementor-widget-container {
+    margin: 20px 0 0
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(--10px/2);
+    margin-left: calc(--10px/2)
+}
+
+body.rtl .elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(--10px/2)
+}
+
+body:not(.rtl) .elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(--10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a {
+    --e-icon-list-icon-size: 14px
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-text {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-144 .elementor-element.elementor-element-ceb1c3a .elementor-icon-list-item>a {
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 2.5em
+}
+
+.elementor-144 .elementor-element.elementor-element-a56ba37 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 14.86px
+}
+
+.elementor-144 .elementor-element.elementor-element-a56ba37>.elementor-widget-container {
+    margin: 0
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(-10px/2);
+    margin-left: calc(-10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(--10px/2);
+    margin-left: calc(--10px/2)
+}
+
+body.rtl .elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(--10px/2)
+}
+
+body:not(.rtl) .elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(--10px/2)
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 {
+    --e-icon-list-icon-size: 14px
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-text {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-144 .elementor-element.elementor-element-abaca38 .elementor-icon-list-item>a {
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 200;
+    line-height: 2.5em
+}
+
+.elementor-144 .elementor-element.elementor-element-569302b {
+    --divider-border-style: solid;
+    --divider-color: #FFFFFF;
+    --divider-border-width: 1px
+}
+
+.elementor-144 .elementor-element.elementor-element-569302b .elementor-divider-separator {
+    width: 100%
+}
+
+.elementor-144 .elementor-element.elementor-element-569302b .elementor-divider {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.elementor-144 .elementor-element.elementor-element-569302b>.elementor-widget-container {
+    padding: 15px 0 0
+}
+
+.elementor-144 .elementor-element.elementor-element-810ba2f>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    align-content: center;
+    align-items: center
+}
+
+.elementor-144 .elementor-element.elementor-element-2b9e187 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 400
+}
+
+.elementor-144 .elementor-element.elementor-element-2b9e187>.elementor-widget-container {
+    margin: 0
+}
+
+.elementor-144 .elementor-element.elementor-element-de1baac.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: center
+}
+
+.elementor-144 .elementor-element.elementor-element-bcc7729 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 400
+}
+
+.elementor-144 .elementor-element.elementor-element-bcc7729>.elementor-widget-container {
+    margin: 0
+}
+
+.elementor-144 .elementor-element.elementor-element-bcc7729 {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-4867fa5 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 400
+}
+
+.elementor-144 .elementor-element.elementor-element-4867fa5>.elementor-widget-container {
+    margin: 0;
+    padding: 0 20px
+}
+
+.elementor-144 .elementor-element.elementor-element-4867fa5 {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-68dac53 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 400
+}
+
+.elementor-144 .elementor-element.elementor-element-68dac53>.elementor-widget-container {
+    margin: 0;
+    padding: 0 20px
+}
+
+.elementor-144 .elementor-element.elementor-element-68dac53 {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-b807593 .elementor-heading-title {
+    color: #fff;
+    font-family: axiforma, Sans-serif;
+    font-size: 13.86px;
+    font-weight: 400
+}
+
+.elementor-144 .elementor-element.elementor-element-b807593>.elementor-widget-container {
+    margin: 0
+}
+
+.elementor-144 .elementor-element.elementor-element-b807593 {
+    width: auto;
+    max-width: auto
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-fd937ba.elementor-social-icon {
+    background-color: transparent
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-fd937ba.elementor-social-icon i {
+    color: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-fd937ba.elementor-social-icon svg {
+    fill: #fff
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-ce9f46d.elementor-social-icon {
+    background-color: transparent
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-ddfed7e.elementor-social-icon {
+    background-color: transparent
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-repeater-item-e35c76b.elementor-social-icon {
+    background-color: transparent
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 {
+    --grid-template-columns: repeat(0, auto);
+    --icon-size: 20px;
+    --grid-column-gap: 6px;
+    --grid-row-gap: 0px
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-widget-container {
+    text-align: right
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8 .elementor-social-icon {
+    --icon-padding: 0.2em
+}
+
+.elementor-144 .elementor-element.elementor-element-e0c71b8>.elementor-widget-container {
+    margin: 0;
+    padding: 0
+}
+
+@media(max-width:767px) {
+    .elementor-144 .elementor-element.elementor-element-198509e {
+        width: 50%
+    }
+    .elementor-144 .elementor-element.elementor-element-7760de1 {
+        width: 50%
+    }
+    .elementor-144 .elementor-element.elementor-element-46f87de {
+        width: 50%
+    }
+    .elementor-144 .elementor-element.elementor-element-810ba2f {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0
+    }
+    .elementor-144 .elementor-element.elementor-element-2b9e187>.elementor-widget-container {
+        margin: 20px 0 0
+    }
+    .elementor-144 .elementor-element.elementor-element-bcc7729>.elementor-widget-container {
+        margin: 20px 0 0
+    }
+    .elementor-144 .elementor-element.elementor-element-4867fa5>.elementor-widget-container {
+        margin: 20px 0 0
+    }
+    .elementor-144 .elementor-element.elementor-element-68dac53>.elementor-widget-container {
+        margin: 20px 0 0
+    }
+    .elementor-144 .elementor-element.elementor-element-b807593>.elementor-widget-container {
+        margin: 20px 0 0
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-144 .elementor-element.elementor-element-66b52aa {
+        width: 100%
+    }
+    .elementor-144 .elementor-element.elementor-element-57a67d1 {
+        width: 38.304%
+    }
+    .elementor-144 .elementor-element.elementor-element-198509e {
+        width: 21.964%
+    }
+    .elementor-144 .elementor-element.elementor-element-7760de1 {
+        width: 19.822%
+    }
+    .elementor-144 .elementor-element.elementor-element-46f87de {
+        width: 19.843%
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-144 .elementor-element.elementor-element-57a67d1 {
+        width: 34%
+    }
+    .elementor-144 .elementor-element.elementor-element-198509e {
+        width: 22%
+    }
+    .elementor-144 .elementor-element.elementor-element-7760de1 {
+        width: 22%
+    }
+    .elementor-144 .elementor-element.elementor-element-46f87de {
+        width: 22%
+    }
+    .elementor-144 .elementor-element.elementor-element-93a42e8 {
+        width: 35%
+    }
+    .elementor-144 .elementor-element.elementor-element-de1baac {
+        width: 40%
+    }
+    .elementor-144 .elementor-element.elementor-element-9a810c9 {
+        width: 25%
+    }
+}
+
+.elementor-144 .elementor-element.elementor-element-bf9fc13 svg:hover {
+    transform: scale(.9);
+    transition: transform .5s ease-out, fill .5s
+}
+
+.elementor-144 .elementor-element.elementor-element-ccf241e svg:hover {
+    transform: scale(.9);
+    transition: transform .5s ease-out, fill .5s
+}
+
+.elementor-144 .elementor-element.elementor-element-25a2b8a svg:hover {
+    transform: scale(.9);
+    transition: transform .5s ease-out, fill .5s
+}
+
+#slider-footer {
+    display: none
+}
+
+@font-face {
+    font-family: axiforma;
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Regular.eot);
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Regular.eot?#iefix) format('embedded-opentype'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Regular.woff) format('woff'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: axiforma;
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Medium.eot);
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Medium.eot?#iefix) format('embedded-opentype'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Medium-1.woff) format('woff'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Medium.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: axiforma;
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-SemiBold.eot);
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-SemiBold.eot?#iefix) format('embedded-opentype'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-SemiBold-1.woff) format('woff'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-SemiBold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: axiforma;
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Bold.eot);
+    src: url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Bold.eot?#iefix) format('embedded-opentype'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Bold-1.woff) format('woff'), url(https://bykea.com/wp-content/uploads/2020/02/Axiforma-Bold.ttf) format('truetype')
+}
