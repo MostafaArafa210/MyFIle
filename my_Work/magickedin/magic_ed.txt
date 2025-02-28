@@ -1,6 +1,0 @@
-magiceden.dev
-.magiceden.workers.dev
-blog.magiceden.io
-magiceden.io
-
-

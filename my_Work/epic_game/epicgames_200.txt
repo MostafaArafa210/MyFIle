@@ -1,6 +1,0 @@
-https://content-service.live-testing.vk.on.epicgames.com [[32m200[0m]
-https://ping-eu-central-1.megastation.it.epicgames.com [[32m200[0m]
-https://ping-eu-west-1.megastation.it.epicgames.com [[32m200[0m]
-https://ping.megastation.it.epicgames.com [[32m200[0m]
-https://ping-us-east-1.megastation.it.epicgames.com [[32m200[0m]
-https://vpn-portal.epicgames.com [[32m200[0m]

@@ -1,3 +1,0 @@
-https://am.sec.neustar.biz/WEB-INF/web.xml
-https://www.onspotdata.com/
-https://listserv.neustar.biz/

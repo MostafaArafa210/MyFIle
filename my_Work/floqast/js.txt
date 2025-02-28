@@ -1,4 +1,0 @@
-https://login-redirect.floqast.app/static/js/2.8be5669b.chunk.js
-https://login-redirect.floqast.app/static/js/main.f58f2fec.chunk.js
-https://login-redirect.floqast.app/static/js/runtime-main.0b13c4f1.js
-https://static.eu.floqast.app/applications/login/1659483309.34.0-9a56041/js/login.js

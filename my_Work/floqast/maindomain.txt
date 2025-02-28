@@ -1,3 +1,0 @@
-floqast.app
-eu.floqast.app
-

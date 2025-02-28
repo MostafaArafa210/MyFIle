@@ -1,2 +1,0 @@
-.simpletax.ca
-*.wealthsimple.com

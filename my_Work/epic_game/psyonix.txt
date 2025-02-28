@@ -1,3 +1,0 @@
-flat.psyonix.com	35.244.133.72
-mail.psyonix.com	159.127.187.146	
-www.psyonix.com	    146.75.121.161

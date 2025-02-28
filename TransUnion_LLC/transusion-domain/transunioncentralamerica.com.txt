@@ -1,9 +1,0 @@
-cmsstage.transunioncentralamerica.com
-cmspvw.transunioncentralamerica.com
-ns2.transunioncentralamerica.com
-newsroom.transunioncentralamerica.com
-www.transunioncentralamerica.com
-cmsdev.transunioncentralamerica.com
-ns1.transunioncentralamerica.com
-ns4.transunioncentralamerica.com
-ns3.transunioncentralamerica.com

@@ -1,9 +1,0 @@
-metahuman.unrealengine.com
-
-This is an API Base, please also see the following list of endpoints
-GET: /health-check
-GET: /metrics
-GET: /api/v1/getClientSession
-GET: /api/v1/getQueuePosition
-GET: /api/v1/get-eula
-POST: /api/v1/accept-eula

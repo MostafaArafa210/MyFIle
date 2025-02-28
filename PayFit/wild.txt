@@ -1,9 +1,0 @@
-payfit.co.uk
-payfit.com
-payfit.de
-payfit.es
-payfit.fr
-payfit.io
-payfit.tech
-*.m.payfit.com
-*.access.payfit.com

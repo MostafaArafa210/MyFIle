@@ -1,3 +1,0 @@
-http://prod-cloud.hookupdating.mobi/
-https://prod-cloud.hookupdating.mobi/v1/hudonline/latest_insta_photos/
-https://prod-cloud.hookupdating.mobi/v1/hudonline/latest_insta_photos/?number_of_items=4

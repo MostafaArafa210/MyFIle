@@ -1,6 +1,0 @@
-geocode-beta.bykea.net
-leaflet-map.bykea.net
-maps.bykea.net
-nominatim.bykea.net
-api.bykea.net
-bykea.net

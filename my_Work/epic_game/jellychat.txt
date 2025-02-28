@@ -1,3 +1,0 @@
-"""secure.jellychat.com	
-secure-v2.jellychat.com	
-secure2.jellychat.com"""

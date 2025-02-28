@@ -1,3 +1,0 @@
-https://vchncibdesktop.transunion.com [303] [] [] [HSTS]
-https://vdesktop.transunion.com [303] [] [] [HSTS]
-https://videoassessments.transunion.com [303] [] [] [Amazon CloudFront,Amazon Web Services,HSTS,Play,Scala]

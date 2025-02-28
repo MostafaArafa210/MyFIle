@@ -1,5 +1,0 @@
-ffuf -c -w onelistforall.txt -u [target.com]/FUZZ
-ffuf -c -w onelistforall.txt -u [target.com]/FUZZ
-ffuf -c -w /home/newline/Desktop/MyTool/OneListForAll/onelistforallmicro.txt   -u  
-
-^https?:\/\/[a-zA-Z0-9-_.~]{1,}.com$   {Site Regex }

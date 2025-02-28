@@ -1,1 +1,0 @@
-https://integrated.test.transunion.com [405] [] [cloudflare] [Cloudflare,HSTS]

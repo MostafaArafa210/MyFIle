@@ -1,4 +1,0 @@
-/signin/:gameId?
-/signup/:gameId?
-/otp/:gameId?
-/signin/:gameId?
