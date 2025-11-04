@@ -1,0 +1,174 @@
+name: SubDomainMonitor
+
+on:
+  schedule:
+    ## Run every 6 hour All Day All Month day of the week
+  - cron: "0 */6 * * *"  ## Muinte Hour Day Month Year 
+    
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "Monitor domain:" 
+        default: 'example.com'
+        required: True
+        
+permissions:
+    contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          clean: true
+          fetch-depth: 1
+      
+      - name: Setup Go Lang 
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+      
+      - name: Setup SubFinder
+        run: |
+          go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+          
+      - name: Verify installation
+        run: subfinder -version
+
+      - name: Run subfinder
+        env:
+          DOMAIN: ${{ github.event.inputs.domain }}
+        run: |
+          subfinder -d "$DOMAIN" -silent -o current-subdomains.txt
+          echo "SUBDOMAINS_COUNT=$(wc -l < current-subdomains.txt)" >> $GITHUB_ENV
+          
+      - name: Check for previous results
+        id: check_previous
+        run: |
+          if [ -f previous-subdomains.txt ]; then
+            echo "previous_exists=true" >> $GITHUB_OUTPUT
+            echo "PREVIOUS_COUNT=$(wc -l < previous-subdomains.txt)" >> $GITHUB_ENV
+          else
+            echo "previous_exists=false" >> $GITHUB_OUTPUT
+            echo "PREVIOUS_COUNT=0" >> $GITHUB_ENV
+          fi
+          
+      - name: Compare with previous results
+        if: steps.check_previous.outputs.previous_exists == 'true'
+        run: |
+          # Sort both files and find new subdomains
+          sort current-subdomains.txt > current-sorted.txt
+          sort previous-subdomains.txt > previous-sorted.txt
+          comm -23 current-sorted.txt previous-sorted.txt > new-subdomains.txt
+          echo "NEW_COUNT=$(wc -l < new-subdomains.txt)" >> $GITHUB_ENV
+          
+          # Also find removed subdomains
+          comm -13 current-sorted.txt previous-sorted.txt > removed-subdomains.txt
+          echo "REMOVED_COUNT=$(wc -l < removed-subdomains.txt)" >> $GITHUB_ENV
+          
+      - name: Prepare Discord notification
+        env:
+          DOMAIN: ${{ github.event.inputs.domain }}
+        run: |
+          # Format current subdomains (limit to 15)
+          CURRENT_SUBDOMAINS=$(head -n 15 current-subdomains.txt | sed 's/^/- /')
+          if [ $SUBDOMAINS_COUNT -gt 15 ]; then
+            CURRENT_SUBDOMAINS="$CURRENT_SUBDOMAINS\n... and $((SUBDOMAINS_COUNT - 15)) more"
+          fi
+          
+          # Format previous subdomains (limit to 15)
+          if [ $PREVIOUS_COUNT -gt 0 ]; then
+            PREV_SUBDOMAINS=$(head -n 15 previous-subdomains.txt | sed 's/^/- /')
+            if [ $PREVIOUS_COUNT -gt 15 ]; then
+              PREV_SUBDOMAINS="$PREV_SUBDOMAINS\n... and $((PREVIOUS_COUNT - 15)) more"
+            fi
+          else
+            PREV_SUBDOMAINS="No previous data"
+          fi
+          
+          # Format new subdomains (limit to 10)
+          if [ "$previous_exists" == "true" ] && [ $NEW_COUNT -gt 0 ]; then
+            NEW_SUBDOMAINS=$(head -n 10 new-subdomains.txt | sed 's/^/- /')
+            if [ $NEW_COUNT -gt 10 ]; then
+              NEW_SUBDOMAINS="$NEW_SUBDOMAINS\n... and $((NEW_COUNT - 10)) more"
+            fi
+          else
+            NEW_SUBDOMAINS="None"
+          fi
+          
+          # Format removed subdomains (limit to 10)
+          if [ "$previous_exists" == "true" ] && [ $REMOVED_COUNT -gt 0 ]; then
+            REMOVED_SUBDOMAINS=$(head -n 10 removed-subdomains.txt | sed 's/^/- /')
+            if [ $REMOVED_COUNT -gt 10 ]; then
+              REMOVED_SUBDOMAINS="$REMOVED_SUBDOMAINS\n... and $((REMOVED_COUNT - 10)) more"
+            fi
+          else
+            REMOVED_SUBDOMAINS="None"
+          fi
+          
+          # Create Discord embed
+          PAYLOAD=$(jq -n \
+            --arg title "Subdomain Report for $DOMAIN" \
+            --arg current "$SUBDOMAINS_COUNT" \
+            --arg previous "$PREVIOUS_COUNT" \
+            --arg new "$NEW_COUNT" \
+            --arg removed "$REMOVED_COUNT" \
+            --arg currentlist "$CURRENT_SUBDOMAINS" \
+            --arg prevlist "$PREV_SUBDOMAINS" \
+            --arg newlist "$NEW_SUBDOMAINS" \
+            --arg removedlist "$REMOVED_SUBDOMAINS" \
+            '{
+              "embeds": [{
+                "title": $title,
+                "color": 5814783,
+                "fields": [
+                  {"name": "Current Subdomains", "value": $current, "inline": true},
+                  {"name": "Previous Subdomains", "value": $previous, "inline": true},
+                  {"name": "New Subdomains", "value": $new, "inline": true},
+                  {"name": "Removed Subdomains", "value": $removed, "inline": true},
+                  {"name": "Current Subdomains", "value": $currentlist},
+                  {"name": "Previous Subdomains", "value": $prevlist},
+                  {"name": "New Subdomains", "value": $newlist},
+                  {"name": "Removed Subdomains", "value": $removedlist}
+                ],
+                "footer": {"text": ${{ github.event.inputs.domain }} "Subdomain Monitor"}
+              }]
+            }')
+          
+          echo "PAYLOAD<<EOF" >> $GITHUB_ENV
+          echo "$PAYLOAD" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Send to Discord
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "$WEBHOOK_URL"
+
+      - name: Update previous results
+        run: |
+          cp current-subdomains.txt previous-subdomains.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add previous-subdomains.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update previous subdomains list"
+            git push origin main
+          fi
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f current-subdomains.txt previous-subdomains.txt new-subdomains.txt removed-subdomains.txt current-sorted.txt previous-sorted.txt

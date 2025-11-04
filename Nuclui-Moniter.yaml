@@ -1,0 +1,129 @@
+name: Nucli Scan Domains 
+
+on: 
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "Monitor domain: Scan : ${{ github.event.inputs.domain }}" 
+        required: True
+        
+permissions:
+    contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            persist-credentials: true
+            clean: true
+            fetch-depth: 1
+        
+        - name: Setup Go Lang 
+          uses: actions/setup-go@v4
+          with:
+            go-version: '1.21'
+        
+        - name: Setup nuclei && SubFinder
+          run: |
+            go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+            go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+            echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+        
+        - name: Verify installation
+          run: subfinder -version
+          
+        - name: Verify installation
+          run: nuclei -version
+          
+        - name: Validate Secrets
+          run: |
+            if [ -z "${{ secrets.DISCORD_WEBHOOK }}" ]; then
+              echo "::error::DISCORD_WEBHOOK secret is not set"
+              exit 1
+            fi
+            echo "DISCORD_WEBHOOK=${{ secrets.DISCORD_WEBHOOK }}" >> $GITHUB_ENV
+            
+        - name: Set Domain
+          id: set_domain
+          run: |
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "DOMAIN=${{ github.event.inputs.domain }}" >> $GITHUB_ENV
+            else
+              echo "DOMAIN=example.com" >> $GITHUB_ENV
+            fi
+            
+        - name: Notify Start
+          run: |
+            curl -X POST -H "Content-Type: application/json" -d '{
+              "content": "🔍 **Scan Started**\n**Domain:** ${{ env.DOMAIN }}\n**Trigger:** ${{ github.event_name }}\n**Tools:** Subfinder + Nuclei"
+            }' "${{ env.DISCORD_WEBHOOK }}"
+        
+        - name: Run Subfinder
+          run: |
+            subfinder -d ${{ env.DOMAIN }} -silent -o subdomains.txt
+            echo "SUBDOMAINS_FOUND=$(wc -l < subdomains.txt)" >> $GITHUB_ENV
+
+        - name: Notify Subfinder Results
+          run: |
+            # Read subdomains content
+            SUBDOMAINS_CONTENT=$(cat subdomains.txt)
+            
+            # Create message
+            MESSAGE="✅ **Subfinder Complete**\n**Domain:** ${{ env.DOMAIN }}\n**Subdomains Found:** ${{ env.SUBDOMAINS_FOUND }}\n\n\`\`\`\n$SUBDOMAINS_CONTENT\n\`\`\`"
+            
+            # Truncate if too long
+            if [ ${#MESSAGE} -gt 1900 ]; then
+              TRUNCATED=$(echo "$SUBDOMAINS_CONTENT" | head -c 1800)
+              MESSAGE="✅ **Subfinder Complete**\n**Domain:** ${{ env.DOMAIN }}\n**Subdomains Found:** ${{ env.SUBDOMAINS_FOUND }}\n\n\`\`\`\n$TRUNCATED... [truncated]\n\`\`\`"
+            fi
+            
+            # Send to Discord
+            curl -X POST -H "Content-Type: application/json" \
+              -d "{\"content\": $(echo "$MESSAGE" | jq -Rs .)}" \
+              "${{ env.DISCORD_WEBHOOK }}"
+
+        - name: Run Nuclei
+          run: |
+            nuclei -l subdomains.txt -severity critical,high,medium -silent -o nuclei-results.txt
+            echo "VULNS_FOUND=$(wc -l < nuclei-results.txt)" >> $GITHUB_ENV
+
+        - name: Notify Nuclei Summary
+          run: |
+            if [ ${{ env.VULNS_FOUND }} -gt 0 ]; then
+              curl -X POST -H "Content-Type: application/json" -d '{
+                "content": "🚨 **Vulnerabilities Found!**\n**Domain:** ${{ env.DOMAIN }}\n**Count:** ${{ env.VULNS_FOUND }}\n\nSending each vulnerability as a separate message..."
+              }' "${{ env.DISCORD_WEBHOOK }}"
+            else
+              curl -X POST -H "Content-Type: application/json" -d '{
+                "content": "✅ **Nuclei Complete**\n**Domain:** ${{ env.DOMAIN }}\nNo critical/high/medium vulnerabilities found"
+              }' "${{ env.DISCORD_WEBHOOK }}"
+            fi
+
+        - name: Send Individual Vulnerabilities
+          if: env.VULNS_FOUND > 0
+          run: |
+            # Read each line and send as separate message
+            while IFS= read -r vuln; do
+              # Create message for this vulnerability
+              MESSAGE="🚨 **Vulnerability Found**\n**Domain:** ${{ env.DOMAIN }}\n\`\`\`\n$vuln\n\`\`\`"
+              
+              # Send to Discord
+              curl -X POST -H "Content-Type: application/json" \
+                -d "{\"content\": $(echo "$MESSAGE" | jq -Rs .)}" \
+                "${{ env.DISCORD_WEBHOOK }}"
+                
+              # Small delay to avoid rate limiting
+              sleep 1
+            done < nuclei-results.txt
+
+        - name: Upload Artifacts
+          uses: actions/upload-artifact@v4
+          with:
+            name: scan-results
+            path: |
+              subdomains.txt
+              nuclei-results.txt
